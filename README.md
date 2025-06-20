@@ -35,7 +35,10 @@ Covers 8 major subfields of undergraduate physics:
 
 ### Radar Accuracy Chart
 
-![Radar](assets/images/radar.png)
+<h3>Radar Accuracy Chart</h3>
+
+<img src="assets/images/radar.png" alt="Radar" width="400"/>
+
 
 ---
 
