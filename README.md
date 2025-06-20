@@ -16,7 +16,10 @@ PhysUniBench includes diverse multimodal physics questions that challenge models
 
 ##  Subfield Distribution
 
-![Distribution](assets/images/distribution.png)
+<h3>Subfield Distribution</h3>
+
+<img src="assets/images/distribution.png" alt="Distribution" width="600"/>
+
 
 Covers 8 major subfields of undergraduate physics:
 
@@ -37,7 +40,7 @@ Covers 8 major subfields of undergraduate physics:
 
 <h3>Radar Accuracy Chart</h3>
 
-<img src="assets/images/radar.png" alt="Radar" width="400"/>
+<img src="assets/images/radar.png" alt="Radar" width="800"/>
 
 
 ---
