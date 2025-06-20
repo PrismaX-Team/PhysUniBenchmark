@@ -1,77 +1,113 @@
 import json
 import os
-from benchmark.base_dataset import ImageMCQDataset
-from benchmark.evaluator import evaluate
-from models.unified_api import query_model
+import re
+import pandas as pd
+from benchmark.base_dataset import ImageQADataSet
+from benchmark.evaluator import evaluate_predictions
+from models.unified_api import query_model, build_judge
 
+model_name = "gemini" # "gpt-4o"  # Change to your desired model
+data_path = "" # "path/to/your/dataset.json"  # Path to your dataset file
+force_eval = False # True  # Set to True to force re-evaluation even if results exist
 
-model_name = "gpt-4o" 
-print(f"使用模型: {model_name}")
+print(f"Using model: {model_name}")
 
+os.makedirs("results_cn_mcq", exist_ok=True)
+predict_cache_path = f"results_cn_mcq/{model_name}_pred_cache.json"
+eval_cache_path = f"results_cn_mcq/{model_name}_eval_cache.json"
+out_path = f"results_cn_mcq/{model_name}_results.json"
+summary_path = "results_cn_mcq/summary.json"
 
-dataset = ImageMCQDataset(
-    data_path="/fs-computility/ai4sData/shared/physics/instruction_data/multi_modal_benchmark/v1/PhysicsProblemEncyclopedia-SFT_TextImage/v1.2/physics_physicsproblemencyclopedia_num2801_20250512_MCQ.json"
-)
+dataset = ImageQADataSet(data_path)
 samples = [dataset.build_sample(x) for x in dataset.data]
-print(f"构造样本数: {len(samples)}")
+print(f"Total samples built: {len(samples)}")
 
+if os.path.exists(predict_cache_path):
+    with open(predict_cache_path, "r", encoding="utf-8") as f:
+        pred_cache = json.load(f)
+    print(f"Prediction cache loaded: {len(pred_cache)} entries")
+else:
+    pred_cache = {}
 
 predictions = []
-print("正在调用模型进行预测...")
+print("Running model inference...")
 
 for i, sample in enumerate(samples):
-    try:
-        pred = query_model(model_name, prompt=sample["prompt"], image_path=sample["image"])
-    except Exception as e:
-        pred = f"[ERROR] {str(e)}"
+    sid = str(sample["id"])
+    if sid in pred_cache:
+        pred = pred_cache[sid]
+    else:
+        try:
+            pred = query_model(model_name, prompt=sample["prompt"], image_path=sample["image"])
+        except Exception as e:
+            pred = f"[ERROR] {str(e)}"
+        pred_cache[sid] = pred
+        with open(predict_cache_path, "w", encoding="utf-8") as f:
+            json.dump(pred_cache, f, indent=2, ensure_ascii=False)
+
     predictions.append(pred)
 
-    if i < 2:
-        print("\n" + "="*60)
-        print(f"样例 {i+1}")
-        print(f"图像路径: {sample['image']}")
-        print(f"Prompt:\n{sample['prompt']}")
-        print(f"模型回答: {pred}")
-        print("="*60)
-
-   
     if (i + 1) % 10 == 0 or (i + 1) == len(samples):
-        print(f"完成 {i + 1} / {len(samples)} 道题 ({(i + 1) / len(samples):.1%})")
+        print(f"Progress: {i + 1}/{len(samples)} ({(i + 1)/len(samples):.1%})")
 
-print("模型预测完成，正在评估准确率...")
+# Build judge model
+judge_model = build_judge(model="gpt-4o")
 
+# Evaluate predictions
+if not force_eval and os.path.exists(out_path):
+    print(f"\nEvaluation result already exists, skipping: {out_path}")
+    with open(out_path, "r", encoding="utf-8") as f:
+        result_data = json.load(f)
+    eval_result = {
+        "results": result_data,
+        "overall_acc": 0.0,
+        "mcq_acc": None,
+        "vqa_acc": None,
+        "by_difficulty": {},
+        "by_subject": {}
+    }
+else:
+    print("\nEvaluating predictions...")
+    eval_result = evaluate_predictions(
+        samples,
+        predictions,
+        judge_model=judge_model,
+        cache_path=eval_cache_path
+    )
 
-acc, difficulty_acc, results = evaluate(samples, predictions)
-print(f"模型整体准确率：{acc:.2%}")
+# Print summary
+print(f"\nOverall accuracy: {eval_result['overall_acc']:.2f}%")
+if eval_result.get("mcq_acc") is not None:
+    print(f"MCQ accuracy: {eval_result['mcq_acc']:.2f}%")
+if eval_result.get("vqa_acc") is not None:
+    print(f"VQA accuracy: {eval_result['vqa_acc']:.2f}%")
 
+print("\nAccuracy by difficulty:")
+for diff, score in sorted(eval_result["by_difficulty"].items()):
+    print(f" - Difficulty {diff}: {score:.2f}%")
 
-for diff, score in sorted(difficulty_acc.items(), key=lambda x: str(x[0])):
-    print(f"难度 {diff}: {score:.2%} 准确率")
+print("\nAccuracy by subject:")
+for subject, score in sorted(eval_result["by_subject"].items()):
+    print(f" - {subject}: {score:.2f}%")
 
-
-os.makedirs("results", exist_ok=True)
-out_path = f"results/{model_name}_results.json"
+# Save detailed results
 with open(out_path, "w", encoding="utf-8") as f:
-    json.dump(results, f, indent=2, ensure_ascii=False)
-print(f"预测结果已保存至：{out_path}")
+    json.dump(eval_result["results"], f, indent=2, ensure_ascii=False)
+print(f"\nPer-sample results saved to: {out_path}")
 
-
-summary_path = "results/summary.json"
-
-
+# Save summary
 if os.path.exists(summary_path):
     with open(summary_path, "r", encoding="utf-8") as f:
         summary_data = json.load(f)
 else:
     summary_data = {}
 
-
 summary_data[model_name] = {
-    "overall_accuracy": round(acc, 4),
-    "accuracy_by_difficulty": {str(k): round(v, 4) for k, v in difficulty_acc.items()}
+    "overall_accuracy": round(eval_result["overall_acc"] / 100, 4),
+    "accuracy_by_difficulty": {str(k): round(v / 100, 4) for k, v in eval_result["by_difficulty"].items()},
+    "accuracy_by_subject": {str(k): round(v / 100, 4) for k, v in eval_result["by_subject"].items()}
 }
-
 
 with open(summary_path, "w", encoding="utf-8") as f:
     json.dump(summary_data, f, indent=2, ensure_ascii=False)
-print(f"已更新：{summary_path}")
+print(f"Summary file updated: {summary_path}")
