@@ -6,75 +6,53 @@ PhysUniBench is a large-scale multimodal benchmark specifically designed to eval
 
 ---
 
-## Key Features
+## Benchmark Overview
 
-- **3304 total physics problems**, all paired with diagrams:
-  - **2057 open-ended QA questions**
-  - **1247 multiple-choice questions (MCQs)**
+![Overview](assets/images/overview.png)
 
-- **Multimodal format**: Each problem includes an image + textual context.
-
-- Covers **8 major subfields** of undergraduate physics:
-  1. Electromagnetism & Electrodynamics  
-  2. Classical Mechanics  
-  3. Optics  
-  4. Atomic, Molecular, and Subatomic Physics  
-  5. Relativity  
-  6. Solid-State Physics and Measurement  
-  7. Thermodynamics  
-  8. Quantum Mechanics
-
-- All problems annotated with a difficulty level from 1 to 5.
+PhysUniBench includes diverse multi-modal physics questions paired with diagrams, covering symbolic, visual, and conceptual reasoning.
 
 ---
 
-## Dataset Statistics
+## Subfield Distribution
 
-| Metric                         | Value   |
-|-------------------------------|---------|
-| Total questions               | 3304    |
-| MCQs                         | 1247    |
-| Open-ended QA                | 2057    |
-| Unique images                | 3304    |
-| Avg. question length (tokens) | 150.7   |
-| Avg. answer length (tokens)   | 441.9   |
+![Distribution](assets/images/distribution.png)
+
+Each problem is annotated with subject and difficulty, spanning 8 major subfields of university physics.
 
 ---
 
-## Benchmark Structure
 
-PhysUniBench is split into:
-- `benchmark/`: Code for loading and evaluating data.
-- `models/`: Unified model APIs and judge functions.
-- `results_*/`: Cached results and evaluation logs.
-- `utils/`: Utility functions and expression matching.
+## Experimental Results
 
-We recommend starting from the evaluation scripts inside `script/` if you want to test new models.
+![Radar Chart](assets/images/radar.png)
+
+The above chart shows model accuracy across subfields for MCQ and QA tasks using several leading MLLMs.
 
 ---
 
-## Access the Dataset
+## Dataset Structure
 
-- 📁 **HuggingFace**: [PrismaX/PhysUniBench](https://huggingface.co/datasets/PrismaX/PhysUniBench)
-- 📄 **arXiv Preprint**: _[link to be added]_  
-- 🔗 **Demo Website**: [https://prismax-team.github.io/PhysUniBench](https://prismax-team.github.io/PhysUniBench)
+PhysUniBench includes:
+
+- `benchmark/`: Dataset loaders and evaluation scripts.
+- `models/`: Unified model interface and judge logic.
+- `results_*/`: Cached prediction results (optional).
+- `assets/images/`: Benchmark visualizations.
+- `README.md`: Overview and usage.
 
 ---
 
-## Installation
+## Physics Subfields Covered
 
-```bash
-git clone https://github.com/PrismaX-Team/PhysUniBenchmark.git
-cd PhysUniBenchmark
+1. Electromagnetism and Electrodynamics  
+2. Classical Mechanics  
+3. Optics  
+4. Atomic, Molecular, and Subatomic Physics  
+5. Relativity  
+6. Solid-State Physics and Measurement  
+7. Thermodynamics  
+8. Quantum Mechanics
 
+---
 
-
-
-@misc{PhysUniBench2025,
-  title={PhysUniBench: An Undergraduate-Level Physics Reasoning Benchmark for Multimodal Models},
-  author={Lintao Wang and Encheng Su and Jiaqi Liu and Pengze Li and Peng Xia and Jiabei Xiao and Wenlong Zhang and Xinnan Dai and Mingyu Ding and Lei Bai and Wanli Ouyang and Shixiang Tang and Aoran Wang and Xinzhu Ma},
-  year={2025},
-  archivePrefix={arXiv},
-  eprint={YOUR_ARXIV_ID},
-  primaryClass={cs.CL}
-}
