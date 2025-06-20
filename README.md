@@ -6,7 +6,7 @@ PhysUniBench is a large-scale multimodal benchmark specifically designed to eval
 
 ---
 
-## Overview
+##  Overview
 
 ![Overview](assets/images/overview.png)
 
@@ -14,7 +14,7 @@ PhysUniBench includes diverse multimodal physics questions that challenge models
 
 ---
 
-## Subfield Distribution
+##  Subfield Distribution
 
 ![Distribution](assets/images/distribution.png)
 
@@ -31,7 +31,7 @@ Covers 8 major subfields of undergraduate physics:
 
 ---
 
-## Experimental Results
+##  Experimental Results
 
 ### Radar Accuracy Chart
 
@@ -39,7 +39,7 @@ Covers 8 major subfields of undergraduate physics:
 
 ---
 
-### Accuracy by Subfield (MCQ & QA)
+###  Accuracy by Subfield (MCQ & QA)
 
 **Abbreviations:**  
 OP = Optics, AMS = Atomic/Molecular/Subatomic, ME = Mechanics, SP = Solid Physics,  
@@ -67,7 +67,7 @@ TH = Thermodynamics, EM = Electromagnetism, RE = Relativity, QM = Quantum Mechan
 
 ---
 
-### Accuracy by Difficulty Level
+###  Accuracy by Difficulty Level
 
 | Model              | L1-MCQs | L1-QAs | L2-MCQs | L2-QAs | L3-MCQs | L3-QAs | L4-MCQs | L4-QAs | L5-MCQs | L5-QAs |
 |-------------------|---------|--------|---------|--------|---------|--------|---------|--------|---------|--------|
@@ -79,4 +79,5 @@ TH = Thermodynamics, EM = Electromagnetism, RE = Relativity, QM = Quantum Mechan
 | InternVL-3-38B    | 49.2    | 33.7   | 34.8    | 21.6   | 32.1    | 17.0   | 27.2    | 10.7   | 24.2    | 8.0    |
 
 ---
+
 
