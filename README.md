@@ -1,6 +1,6 @@
 # PhysUniBench
 
-**PhysUniBench: An Undergraduate-Level Physics Reasoning Benchmark for Multimodal Models**
+**PHYSUNIBENCH: A MULTI-MODAL PHYSICS REASONING BENCHMARK AT UNDERGRADUATE LEVEL**
 
 PhysUniBench is a large-scale multimodal benchmark specifically designed to evaluate the advanced reasoning capabilities of MLLMs on undergraduate-level physics problems. It offers a diverse set of diagram-paired QA and MCQ physics questions.
 
