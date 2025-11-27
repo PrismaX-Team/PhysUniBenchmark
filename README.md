@@ -8,7 +8,7 @@ PhysUniBench is a large-scale multimodal benchmark specifically designed to eval
 
 ##  Overview
 
-![Overview](assets/images/overview.png)
+
 
 PhysUniBench includes diverse multimodal physics questions that challenge models in both symbolic and visual reasoning.
 
