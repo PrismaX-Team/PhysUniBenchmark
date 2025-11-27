@@ -6186,7 +6186,7 @@
     "id": 2563,
     "image": "2563.jpg",
     "question": "试画出掺有施主杂质Ge，Si等半导体带能图，并解释为什么能这样画？<image>",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 1,
     "answer": "掺有施主杂质的半导体能带图画在图2.8中。例如在锗硅半导体材料中掺入五价元素磷，Ge，Si晶体是金刚石结构，一个原子附近有四个原子，它们组成了一个正四面体结构，每个原子有四个电子，它们分别与附近四个原子上的价电子配对，而形成共价键，Ge，Si原子就依靠这个共价键而结合成晶体。在这样的晶体中掺入磷原子，由于磷原子一般取代晶格中某一格点上的原子而成为替代式杂质原子，它将受到Ge，Si晶体中原子排列的影响，这个磷原子也将被迫形成四面体键，即应有4个 $\\mathrm{sp}^{3}$ 杂化轨道，但磷原子有5个价原子，磷原子与周围硅锗原子形成4个键外，还剩下1个价电子，而磷原子去掉外层5个价电子以后，带5个正电荷，这样与周围Ge，Si原子相比，引进一个磷原子在效果上造成了一个正电荷中心和一个多余电子，而这个正电子中心正好束缚这个多余电子，显然这个电子的能量应当比晶体中作公有化运动的导带底附近电子能量低，因此在能带图上表示为占据导带底下面禁带中的能级。显然这是在理想能带图中添加新的杂质能级，如果有 $N$ 个杂质就有 $N$ 个能级，处在这个能级上的电子被束缚在正电子中心附近，要释放它到自由状态，需要给一定能量，我们称为电离能 $E_{1}.$"
@@ -6195,7 +6195,7 @@
     "id": 2564,
     "image": "2564.jpg",
     "question": "如图所示，Ge、Si半导体简并，价带顶附近电子能量表达式为：\n $$ E_{1,2}(k)=E_{\\mathrm{V}}-\\frac{\\hbar^{2}}{2m}\\{A k^{2}\\pm[B^{2}k^{4}+C^{2}(k_{x}^{2}k_{y}^{2}+k_{y}^{2}k_{z}^{2}+k_{z}^{2}k_{x}^{2})]^{\\frac{1}{2}}\\} $$ \n 其中常数列于表2.1。试求[1，0，0]方向空穴有效质量。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 2,
     "answer": "在[1，0，0]方向上的能量关系 $,k=(k,0,0)$ ，代入价带顶附近电子能量表达式：\n $$ E_{1,2}(k)=E_{\\mathrm{V}}(0)-{\\frac{\\hbar^{2}}{2m_{0}}}(A\\pm B)k^{2} $$ \n 相应的电子有效质量：\n $$ m_{1,2}^{*}=-\\frac{m}{A\\pm B} $$ \n 电子有效质量为负，说明空穴有效质量为正. $m_{\\mathrm{h}_{1}}^{*}=\\frac{m}{A+B}$ 是轻空穴 $,m_{h_{2}}^{*}=\\frac{m}{A-B}$ 是重空穴。\n 代入 $A,B$ 常数，得Ge，Si价带顶附近沿[1，0，0]的有效质量列于表2.2：\n 表2.2：\n <table><tr><td></td><td>mh2</td><td>m6,</td></tr><tr><td>Ge</td><td>0.21mo</td><td>0.045mo</td></tr><tr><td>Si</td><td>0.34mo</td><td>0.20mo</td></tr></table>"
@@ -6204,7 +6204,7 @@
     "id": 2565,
     "image": "2565.jpg",
     "question": "如图所示，Ge、Si半导体简并，价带顶附近电子能量表达式为：\n $$ E_{1,2}(k)=E_{\\mathrm{V}}-\\frac{\\hbar^{2}}{2m}\\{A k^{2}\\pm[B^{2}k^{4}+C^{2}(k_{x}^{2}k_{y}^{2}+k_{y}^{2}k_{z}^{2}+k_{z}^{2}k_{x}^{2})]^{\\frac{1}{2}}\\} $$ \n 其中常数列于表2.1。试求[1，1，1]方向空穴有效质量。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 4,
     "answer": "在[1,1,1]方向 $,k=\\Big({\\frac{k}{\\sqrt{3}}},{\\frac{k}{\\sqrt{3}}},{\\frac{k}{\\sqrt{3}}}\\Big),$ 代人价带顶附近电子能量表达式，得：\n $$ E_{1,2}(k)=E_{V}(0)-{\\frac{\\hbar^{2}}{2m_{0}}}\\left\\{A\\pm{\\sqrt{B^{2}+C^{2}/3}}\\right\\}k^{2} $$ \n 相应的电子有效质量：\n $$ m_{1,2}^{*}=-\\frac{m_{0}}{A\\pm\\sqrt{B^{2}+C^{2}/3}} $$ \n 显然，m= $,m_{\\mathrm{b_{1}^{*}}}^{*}=\\frac{m_{0}}{A+\\sqrt{B^{2}+C^{2}/3}}{<m_{\\mathrm{b_{2}}}^{*}=}\\frac{m_{0}}{A-\\sqrt{B^{2}+C^{2}/3}}$ $E_{1}$ (k)是轻空穴带，而 $E_{2}$ (k)是重空穴带.代人 $A,B,C$ 常数，得Ge、Si价带顶附近沿[1,1,1]空穴的有效质量，列于表2.3：\n 表2.3：\n <table><tr><td></td><td>mhe</td><td>mi,</td></tr><tr><td>Ge</td><td>0.5mo</td><td>0.04mo</td></tr><tr><td>Si</td><td>0.71mo</td><td>0.15mo</td></tr></table>"
@@ -6213,7 +6213,7 @@
     "id": 2566,
     "image": "2566.jpg",
     "question": "如图所示，Ge、Si半导体简并，价带顶附近电子能量表达式为：\n $$ E_{1,2}(k)=E_{\\mathrm{V}}-\\frac{\\hbar^{2}}{2m}\\{A k^{2}\\pm[B^{2}k^{4}+C^{2}(k_{x}^{2}k_{y}^{2}+k_{y}^{2}k_{z}^{2}+k_{z}^{2}k_{x}^{2})]^{\\frac{1}{2}}\\} $$ \n 其中常数列于表2.1。在电子能带图上，示意并注明轻重空穴带。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 4,
     "answer": "在[1，0，0]和[1，1，1]方向上，能量对 $k$ 关系都是二次抛物线关系，如图2.5所示。对于[1，0，0]和[1，1，1]方向，分别得到轻空穴和重空穴带的有效质量。轻空穴带的有效质量较小，对应的等能面较球形；重空穴带的有效质量较大，对应的等能面扭曲严重，如图2.6所示。"
@@ -6222,7 +6222,7 @@
     "id": 2567,
     "image": "2567.jpg",
     "question": "如图所示，Ge、Si半导体简并，价带顶附近电子能量表达式为：\n $$ E_{1,2}(k)=E_{\\mathrm{V}}-\\frac{\\hbar^{2}}{2m}\\{A k^{2}\\pm[B^{2}k^{4}+C^{2}(k_{x}^{2}k_{y}^{2}+k_{y}^{2}k_{z}^{2}+k_{z}^{2}k_{x}^{2})]^{\\frac{1}{2}}\\} $$ \n 其中常数列于表2.1。说明有效质量的各向异性，轻空穴带还是重空穴带的各向异性更严重？",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 3,
     "answer": "比较这两个方向上的空穴有效质量：重空穴有效质量 $\\mathsf{\\Gamma},\\mathsf{G e}[1,0,0]$ 上，0. $21m_{0}$ ,[1,1,1]上，0.5mo;Si[1,0,0]上，$0.34m_{0},[1,1,1],0.71m_{0},$ 这两个方向上相差非常大，2倍有余，表明有效质量有明显各向异性，因此相应扭曲很大的球形等能面.而轻空穴有效质量 $\\mathbf{\\Pi},\\mathbf{Ge}[1,0,0]$ 上， $0.045m_{0}$ [1,1,1]上,0. $04m_{0};$ Si[1,0,0]上,0 $20m_{0},[1,1,1],0,15m_{0},$ 两个方向有差异，表明各向异性，但差异小，说明等能面扭曲小，基本上是个球，如图2.6所示。"
@@ -6231,7 +6231,7 @@
     "id": 2568,
     "image": "2568.jpg",
     "question": "考虑一个 $A B A B\\cdots A B$ 原子线，$A-B$ 键长为 $a$，如图所示。$A, B$ 原子的散射因子分别为 $f_{A}$ 和 $f_{B}$，入射 X 射线垂直于原子线。（1）给出 $\\theta$ 方向（$\\theta$ 是衍射光束与原子线之间的夹角）衍射加强条件。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 5,
     "answer": "复式格子对 X 射线的衍射可以归结为晶体内各原胞散射波之间的相互干涉。因为晶体是由各原胞在空间周期性排列而成，其排列情况完全可由布拉维格子来表示，因此各原胞之间的相互加强条件即是布拉维格子中被各格点散射加强条件。本题可看作是一个相距为 $a$ 的一维布拉维晶体光栅，如图 1.20 所示，其中每一个格点代表了原子 $A$ 和 $B$。各格点（原胞）散射波之间相互加强条件由其中任两束散射波的光程差来决定，当光程差等于入射 X 射线波长整倍数时散射相互加强，即：\n$$\n{\\overline{{L Q}}}=a\\cos\\theta=n\\lambda \\quad (n=1,2,\\cdots)\n$$\n$n$ 是整数。\n\n注意上式与布拉格公式 $2d\\sin\\theta=n\\lambda$ 不同，原因是这里不存在晶面族中各晶面之间的干涉。"
@@ -6240,7 +6240,7 @@
     "id": 2569,
     "image": "2569.jpg",
     "question": "考虑一个 $A B A B\\cdots A B$ 原子线，$A-B$ 键长为 $a$，如图所示。$A, B$ 原子的散射因子分别为 $f_{A}$ 和 $f_{B}$，入射 X 射线垂直于原子线。（2）计算衍射强度。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 3,
     "answer": "几何结构因子为：\n$$\nF(k)=\\sum_{j=0}^{1}f_{j}\\mathrm{e}^{\\mathrm{i}(k_{0}-k)\\cdot r_{j}}\n$$\n反映了原胞中原子的分布及原子种类对散射强度的影响。式中 $k_{0}$ 是入射 X 射线波矢，$k$ 是某一方向上散射波波矢，而 $r_{j}$ 则表示 $A, B$ 原子坐标。考虑到劳厄方程：\n$$\nk_{0}-k=G\n$$\n$G$ 是一个或几个倒格矢。以晶格常数为 $a$ 的一位布拉维格子的倒格基矢为 $b={\\frac{2\\pi}{a}}i,$ 则 $G=mb=n$，取原子 $A$ 坐标为原点，$A$ 原子 $r=0$，$B$ 原子位置 $r=\\frac{a}{2}i$，所以：\n$$\nF=\\sum_{j}f_{j}\\mathrm{e}^{\\mathrm{i}G\\cdot r_{j}}=f_{A}+f_{B}\\mathrm{e}^{\\mathrm{i}n\\frac{2\\pi}{a}\\cdot\\frac{a}{2}}=f_{A}+f_{B}\\mathrm{e}^{\\mathrm{i}\\cdot n\\pi}.\n$$\n若晶体有 $N$ 个原胞，则晶体沿 $k$ 方向的衍射光应该是 $N$ 个原胞在该方向散射光的叠加，则衍射光强度为：\n$$\nI \\propto N^{2}|F|^{2} \\propto |f_{A}+f_{B}\\mathrm{e}^{\\mathrm{i}\\cdot n\\pi}|^{2}.\n$$\n式中 $n$ 是衍射级数，因此衍射强度为：\n$$\nI \\propto \n\\begin{cases} \n|f_{A}+f_{B}|^{2}, & \\text{$n$ 为偶数} \\\\ \n|f_{A}-f_{B}|^{2}, & \\text{$n$ 为奇数}. \n\\end{cases}\n$$"
@@ -6249,7 +6249,7 @@
     "id": 2570,
     "image": "2570.jpg",
     "question": "考虑一个 $A B A B\\cdots A B$ 原子线，$A-B$ 键长为 $a$，如图所示。$A, B$ 原子的散射因子分别为 $f_{A}$ 和 $f_{B}$，入射 X 射线垂直于原子线。（3）讨论 $f_{A}=f_{B}$ 情况。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 5,
     "answer": "如果 $A, B$ 是同一种原子，$f_{A}=f_{B}$。若 $A, B$ 是不同原子（或离子），它们也可以有相同的散射因子，例如由 $\\mathrm{K}^{+}, \\mathrm{Cl}^{-}$ 两离子组成的双离子链，这时由于 $\\mathrm{K}^{+}$ 和 $\\mathrm{Cl}^{-}$ 的最外壳层都是满壳层，原子核外的电子与壳层数都相同，所以 $\\mathrm{K}^{+}$ 和 $\\mathrm{Cl}^{-}$ 离子的散射因子相同。在 $f_{A}=f_{B}$ 情况下，衍射强度为：\n$$\nI \\propto \n\\begin{cases} \n4f^{2}, & \\text{$n$ 为偶数} \\\\ \n0, & \\text{$n$ 为奇数}. \n\\end{cases}\n$$\n这表明，当 $n$ 为偶数时，原胞中 $A$ 和 $B$ 原子（离子）的散射波相位差为零，散射波相互加强，衍射光强度最强；但当 $n$ 为奇数时，原胞中 $A$ 和 $B$ 原子（离子）散射波相位差为 $\\pi$，互相抵消，发生消光现象。"
@@ -6258,7 +6258,7 @@
     "id": 2571,
     "image": "2571.jpg",
     "question": "若一金刚石结构晶体，其导带底在 [1, 1, 0] 方向上，问还有哪些方向上有导带底呢？请结合图2.11<image>进行说明。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 4,
     "answer": "由能带对称性 $E(k) = E(\\alpha k)$ 得知，若在 [1, 1, 0] 方向上有导带底，对称性将指明在与 [1, 1, 0] 对称方向上也有导带底。金刚石 [1, 1, 0] 方向在下述对称转动操作下：\n$$\nC_{2}, C_{3}, i C_{2}^{\\prime}, i C_{4}\n$$\n变为 6 个面对角线。加上反演，共 12 个方向上有导带底。\n\n图 2.11 示出 $k_{x}k_{y}$ 坐标面上 4 个对称方向 [1, 1], [1, -1], [-1, -1] 和 [-1, 1]，一个坐标面上对应 4 个导带底，3 个坐标面共对应 12 个导带底。"
@@ -6267,7 +6267,7 @@
     "id": 2572,
     "image": "2572.jpg",
     "question": "如图所示，考虑原子的二维正方形排列，晶格常数为 $a,$ 原子之间有相互作用，当位于 $(x_{0},y_{0})$ 的原子移至 $(x_{0}+\\Delta x,y_{0})$ 时，它受到位于 $(x_{0}\\pm a,y_{0})$ 的两个相邻原子的恢复力 $C_1\\Delta x$ 和位于 $(x_{0},y_{0}\\pm a)$ 的两个相邻原子的恢复力 $C_2\\Delta x,$ 假定 $C_2 < C_1$。求沿 $x$ 方向传播的声波的色散关系，并画出色散图。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 4,
     "answer": "取 $(x_{0},y_{0})$ 为原点，格点坐标 $(x_{n},y_{m})=(n a,m a),$ 设格点 $(x_{n},y_{m})$ 原子的 $x$ 方向位移为 $x_{m n},$ 则这个位移相对于 $x$ 轴上最近邻原子的相对位移是\n $$ -(x_{n+1,m}-x_{n,m})+(x_{n,m}-x_{n-1,m})=2x_{n,m}-x_{n+1,m}-x_{n-1,m} $$\n 相应，相对于 $y$ 轴上最近邻原子的相对位移是\n $$ 2x_{n,m}-x_{n,m+1}-x_{n,m-1} $$\n 故位于坐标 $(x_{n},y_{m})$ 上的原子的运动方程为\n $$ m\frac{\\mathrm{d}^{2}x_{n,m}}{\\mathrm{d}t^{2}}=-C_1(2x_{n,m}-x_{n+1,m}-x_{n-1,m})-C_2(2x_{n,m}-x_{n,m+1}-x_{n,m-1}) $$\n 试探解\n $$ x_{n,m}=A\\mathrm{e}^{\\mathrm{i}(q_{1}n a+q_{2}m a-\\omega t)} $$\n 代入原子运动方程，得\n $$ m\\omega^{2}=C_1(2-\\mathrm{e}^{\\mathrm{i}q_{1}a}-\\mathrm{e}^{-\\mathrm{i}q_{1}a})+C_2(2-\\mathrm{e}^{\\mathrm{i}q_{2}a}-\\mathrm{e}^{-\\mathrm{i}q_{2}a}) $$\n 化简后为\n $$ \\omega=\\left[\frac{4C_1}{m}\\mathrm{sin}^{2}\\left(\frac{q_{1}a}{2}\right)+\frac{4C_2}{m}\\mathrm{sin}^{2}\\left(\frac{q_{2}a}{2}\right)\right]^{\frac{1}{2}} $$\n 对于 $x$ 方向上传播的声波，$q_{2}=0,$ 故其色散关系为\n $$ \\omega={\\sqrt{\frac{4C_1}{m}}}\\sin\\left({\frac{q_{1}a}{2}}\right) $$\n 色散图如图1.32所示。"
@@ -6276,7 +6276,7 @@
     "id": 2573,
     "image": "2573.jpg",
     "question": "相距为 $r$ 的两惰性气体原子，其相互作用势能为 \n $$ u(r) = 4\\varepsilon\\Bigl[\\left(\\frac{\\sigma}{r}\\right)^{12} - \\left(\\frac{\\sigma}{r}\\right)^{6}\\Bigr] $$ \n 称雷纳德-琼斯（Lennard-Jones）势。以 $\\frac{r}{\\sigma}$ 为横坐标，$\\frac{u(r)}{4\\varepsilon}$ 为纵坐标，画出这种相互作用势曲线。<image>",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 4,
     "answer": "将 $u(r)$ 归一化为 \n $$ \\frac{u(r)}{4\\varepsilon} = \\Big(\\frac{\\sigma}{r}\\Big)^{12} - \\Big(\\frac{\\sigma}{r}\\Big)^{6} = \\frac{1}{\\Big(\\frac{r}{\\sigma}\\Big)^{12}} - \\frac{1}{\\Big(\\frac{r}{\\sigma}\\Big)^{6}} $$ \n 取若干不同的 $\\frac{r}{\\sigma}$ 值，计算对应的 $\\frac{u(r)}{4\\varepsilon}$ 值，并列于表中： \n | $\\frac{r}{\\sigma}$ | 0.7 | 0.8 | 0.9 | 1   | 1.05 | 1.12 | 1.2  | 1.3  | 1.5  | 1.6  |\n |---------------------|------|------|------|------|-------|-------|-------|-------|-------|-------|\n | $\\frac{u(r)}{4\\varepsilon}$ | 64   | 10.6 | 1.7  | 0    | 0.19  | 0.25  | 0.22  | 0.16  | 0.08  | 0.06  |\n 根据上述数据绘制相互作用势曲线如图所示。"
@@ -6285,7 +6285,7 @@
     "id": 2574,
     "image": "2574.jpg",
     "question": "如图所示，Ge、Si半导体价带简并，价带顶附近电子能量表达式为：\n $$ E_{1,2}(k)=E_{\\mathrm{V}}-\\frac{\\hbar^{2}}{2m}\\{A k^{2}\\pm[B^{2}k^{4}+C^{2}(k_{x}^{2}k_{y}^{2}+k_{y}^{2}k_{z}^{2}+k_{z}^{2}k_{x}^{2})]^{\\frac{1}{2}}\\} $$ \n （2）比较相同波矢轻、重空穴能量，并在空穴能带图上标出轻、重空穴带。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 4,
     "answer": "空穴波矢是电子处在该量子态上波矢的负值\n $$ k_{\\mathrm{h}}=-k_{\\mathrm{e}} $$\n 空穴能量等于电子处在该量子态上电子的能量的负值，所以\n $$ \\begin{array}{l}{{\\displaystyle E_{1}(k_{\\mathrm{h}})=-E_{1}(k_{\\mathrm{e}})=-E_{v}+\\frac{\\hbar^{2}}{2m}(A+B)k_{\\mathrm{h}}^{2}}}\\ {{\\displaystyle E_{2}(k_{\\mathrm{h}})=-E_{2}(k_{\\mathrm{e}})=-E_{v}+\\frac{\\hbar^{2}}{2m}(A-B)k_{\\mathrm{h}}^{2}}}\\end{array} $$\n 若轻重空穴波矢 $\\mid k_{\\mathrm{h}}\\mid$ 相等，则有\n $$ E_{\\mathrm{1}}(k_{\\mathrm{h}})\\mathrm{>}E_{2}(k_{\\mathrm{h}}) $$\n 图 $2.4$ 是在空穴能带图上画出轻、重空穴能带。"
@@ -6294,7 +6294,7 @@
     "id": 2575,
     "image": "2575.jpg",
     "question": "考虑由两种不同原子（质量分别为 $M$ 和 $m$）所构成的一维复式格子，相邻同种原子间距离为 $2a$，相互作用恢复力常数为 $\beta$。设 $M \\gg m$，求晶格热容量。<image>",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 4,
     "answer": "列出原子运动方程：\n$$\n\\begin{aligned}\nm \\frac{\\mathrm{d}^2 x_{2n+1}}{\\mathrm{d}t^2} &= \\beta(x_{2n+2} + x_{2n} - 2x_{2n+1}), \\\\\nM \\frac{\\mathrm{d}^2 x_{2n+2}}{\\mathrm{d}t^2} &= \\beta(x_{2n+3} + x_{2n+1} - 2x_{2n+2}).\n\\end{aligned}\n$$\n试探解：\n$$\n\\begin{aligned}\nx_{2n+1} &= A \\mathrm{e}^{[q(2n+1)a - \\omega t]}, \\\\\nx_{2n+2} &= B \\mathrm{e}^{[q(2n+2)a - \\omega t]}.\n\\end{aligned}\n$$\n代入运动方程，得：\n$$\n\\begin{aligned}\n-m \\omega^2 A &= \\beta(\\mathrm{e}^{iqa} + \\mathrm{e}^{-iqa})B - 2\\beta A, \\\\\n-M \\omega^2 B &= \\beta(\\mathrm{e}^{iqa} + \\mathrm{e}^{-iqa})A - 2\\beta B.\n\\end{aligned}\n$$\n即：\n$$\n\\begin{aligned}\n(2\\beta - m\\omega^2)A - (2\\beta \\cos qa)B &= 0, \\\\\n-(2\\beta \\cos qa)A + (2\\beta - M\\omega^2)B &= 0.\n\\end{aligned}\n$$\n若 $A, B$ 有非零解，则系数行列式必须为零：\n$$\n\\begin{vmatrix}\n2\\beta - m\\omega^2 & -2\\beta \\cos qa \\\\\n-2\\beta \\cos qa & 2\\beta - M\\omega^2\n\\end{vmatrix} = 0.\n$$\n解得：\n$$\n\\omega^2 = \\frac{\\beta}{mM} \\left\\{ (m+M) \\pm \\sqrt{m^2 + M^2 + 2mM \\cos(2qa)} \\right\\}.\n$$\n进一步化简为光学支和声学支的频率：\n$$\n\\begin{aligned}\n\\omega_+^2 &= \\frac{2\\beta}{m}, \\\\\n\\omega_-^2 &= \\frac{2\\beta}{M} \\sin^2(qa).\n\\end{aligned}\n$$\n光学支的热振动能和热容量：\n$$\nE = \\frac{N\\hbar\\omega_0}{\\mathrm{e}^{\\frac{\\hbar\\omega_0}{k_\\mathrm{B}T}} - 1}, \\quad c_V^+ = N k_\\mathrm{B} \\left( \\frac{\\Theta_\\mathrm{E}}{T} \\right)^2 \\frac{\\mathrm{e}^{\\frac{\\Theta_\\mathrm{E}}{T}}}{\\left( \\mathrm{e}^{\\frac{\\Theta_\\mathrm{E}}{T}} - 1 \\right)^2}.\n$$\n声学支的热振动能和热容量：\n$$\nE' = \\int_0^{\\omega_0'} \\frac{2N}{\\pi} \\frac{\\hbar\\omega}{(\\omega_0'^2 - \\omega^2)^{1/2}} \\frac{\\mathrm{d}\\omega}{\\mathrm{e}^{\\frac{\\hbar\\omega}{k_\\mathrm{B}T}} - 1}, \\quad c_V^- = \\frac{2N k_\\mathrm{B}}{\\pi \\omega_0'} \\int_0^{\\omega_0'} \\frac{\\left( \\frac{\\hbar\\omega}{k_\\mathrm{B}T} \\right)^2}{\\left( 1 - \\left( \\frac{\\omega}{\\omega_0'} \\right)^2 \\right)^{1/2}} \\frac{\\mathrm{e}^{\\frac{\\hbar\\omega}{k_\\mathrm{B}T}}}{\\left( \\mathrm{e}^{\\frac{\\hbar\\omega}{k_\\mathrm{B}T}} - 1 \\right)^2} \\mathrm{d}\\omega.\n$$\n总热容量：\n$$\nc_V = c_V^+ + c_V^-.\n$$"
@@ -6303,7 +6303,7 @@
     "id": 2576,
     "image": "2576.jpg",
     "question": "面心立方结构晶体氯化钠（NaCl）由钠离子 $\\mathrm{Na^{+}}$ 和氯离子 $\\mathrm{Cl^{-}}$ 组成，钠和氯的原子序数分别是11和17。决定哪组X射线衍射能被观察到（对于通常的立方原胞）。图1.21<image>",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 2,
     "answer": "因为衍射强度公式为\n$$\nI_{hkl} \\propto |F_{hkl}|^2 = F_{hkl} \\cdot F_{hkl}^*\n$$\n其中\n$$\n\\begin{aligned}\nI_{hkl} & = f_{\\mathrm{Na}^{+}}^{2} \\ast \\{[1 + \\cos n\\pi(h+k) + \\cos n\\pi(h+l) + \\cos n\\pi(l+k)] \\\\\n& \\quad + \\alpha [\\cos n\\pi h + \\cos n\\pi k + \\cos n\\pi l + \\cos n\\pi(h+k+l)]\\}^2 \\\\\n& \\quad + f_{\\mathrm{Na}^{+}}^{2} \\ast \\{[\\sin n\\pi(h+k) + \\sin n\\pi(h+l) + \\sin n\\pi(h+l)] \\\\\n& \\quad + \\alpha [\\sin n\\pi h + \\sin n\\pi k + \\sin n\\pi l + \\sin n\\pi(h+k+l)]\\}^2\n\\end{aligned}\n$$\n其中 $\\alpha = \\frac{f_{\\mathrm{Cl}^{-}}}{f_{\\mathrm{Na}^{+}}} = \\frac{17}{11}$。容易得到，衍射强度 $I_{hkl} \\neq 0$ 的条件为面指数 $h, k, l$ 都是奇数或都是偶数。此时可观察到两组衍射。"
@@ -6312,7 +6312,7 @@
     "id": 2577,
     "image": "2577.jpg",
     "question": "热阴极电离真空计（用于测量真空系统的压强）的基本组成部分和原理是什么？<image>",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 2,
     "answer": "热阴极电离真空计主要由阴极 $F$、加速极 $A$ 和收集极 $C$ 构成。如图所示：\n\n阴极灯丝在通电发热后发射热电子，向带有正电位的加速极 $A$ 运行。有一部分电子被 $A$ 吸收，另一部分穿过加速极栅间空隙，继续向收集极 $C$ 前进。由于 $C$ 带负电位，当电子靠近 $C$ 时又被推斥，使得电子在 $C$ 和 $A$ 极间来回振荡，直到被 $A$ 吸收。在电子从 $F$ 到 $A$ 的运行过程中，不断与管内存在的气体分子碰撞，形成正离子和电子。正离子被收集极 $C$ 收集形成离子电流 $i_+$，而加速极 $A$ 收集的电子则形成电子电流 $i_e$。理论给出，所形成的离子电流 $i_+$ 和管内压强 $P$ 成正比，即\n\n$$\nP = K \\frac{i_+}{i_e}\n$$\n\n若维持 $i_e$ 不变，则\n\n$$\nP = K_1 i_+\n$$\n\n由此可借助于测量离子电流 $i_+$ 而得到真空系统的压强。"
@@ -6321,7 +6321,7 @@
     "id": 2578,
     "image": "2578.jpg",
     "question": "如图所示，由反射性材料制成的小球浮于透明物质的表面上，首先假定它们形成一个晶格常数为 $10^{4}\\mathring{A}$ 的正方形格子。一束波长为5000Å的相干光垂直向下射到此表面上（如图4.7）。如果入射光束无穷宽且理想平行，格子无限大，那么，出射光束当然也将沿准确方向出射。如果在此表面上方 $10\\mathrm{m}$ 处有一个水平屏幕，上面将出现清楚的点状光斑。可是，如果格子是一个仅含10000个小球的正方形，屏幕上的光斑宽度将是多少？（做数量级估计即可，需给出理由。）",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 4,
     "answer": "10000个小球的正方形边长为 $100d(d=1\\times10^{4}\\mathring{A}),$ 此时光束相当于通过这个正方形而发生衍射。屏幕上光的宽度为\n$$\n\\Delta x = \\Delta y \\approx \\frac{\\lambda}{100d} \\times D = \\frac{5000}{100 \\times 1 \\times 10^{4}} \\times 10 = 0.05(\\mathrm{m})\n$$\n式中 $D$ 是屏幕与正方晶格的距离 $D = 10\\mathrm{m}$。"
@@ -6330,7 +6330,7 @@
     "id": 2579,
     "image": "2579.jpg",
     "question": "如图所示，由反射性材料制成的小球浮于透明物质的表面上，首先假定它们形成一个晶格常数为 $10^{4}\\mathring{A}$ 的正方形格子。一束波长为5000Å的相干光垂直向下射到此表面上（如图4.7）。现在假设每个小球以准弹性力连在格点上，它们独立地在格点附近振动，平均平方根位移是2000Å。小球的这种运动将怎样改变出射光的图样？比较小球运动时和静止时的衍射图样，我们可以区分小球是做水平运动还是铅垂运动，怎样区分？",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 4,
     "answer": "小球的这种运动将使原来的光点弥散为光斑，且在原来无光点处产生淡淡的背景。\n如果小球做水平运动，则对 $z$ 方向附近光线的位相影响较小，故干涉图样呈现为：中心光点亮而小，背景较暗；边缘光点暗而且大，背景较亮。如小球做铅垂运动，则对 $z$ 方向附近的光线的相位影响较大，故中心光点较暗而且大，而边缘光点则显得亮而小，背景较暗。"
@@ -6339,7 +6339,7 @@
     "id": 2580,
     "image": "2580.jpg",
     "question": "金刚石结构的第一布里渊区如图所示的截角八面体。说明其是如何构成的？其体积是否等于其原胞体积的倒数（乘上 $(2\\pi)^{3}$ 因子）？",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 3,
     "answer": "金刚石结构是一复式格子，即由两个面心立方的布拉维原胞沿其空间对角线位移 $\\frac{1}{4}$ 的长度套构而成。因此，金刚石结构固体物理学原胞的取法与面心立方的布拉维原胞的取法相同，只不过这时格点代表的是两个不等同的碳原子。\n 倒格矢量为：\n $$ G_{\\mathrm{n}}=n_{1}b_{1}+n_{2}b_{2}+n_{3}b_{3} $$\n $$ =\\frac{2\\pi}{a}[(-n_{1}+n_{2}+n_{3})i+(n_{1}-n_{2}+n_{3})j+(n_{1}+n_{2}-n_{3})k] $$\n 按照布里渊区的做法，首先对上述8个倒格点连起来倒格矢作中垂线，这8个中垂面将围成一个正八面体。显然，三个互相垂直的坐标轴把空间分为8个封相，只需算出它在第一封相的体积就得到正八面体体积。正八面体体积为：\n $$ 8\\times{\\frac{9}{16}}{\\left(\\frac{2\\pi}{a}\\right)}^{3}={\\frac{9}{2}}{\\left(\\frac{2\\pi}{a}\\right)}^{3} $$\n 而倒格子原胞体积为：\n $$ \\frac{b_{1}\\cdot(b_{2}\\times b_{3})}{\\Omega}=4\\frac{(2\\pi)^{3}}{a^{3}}=4\\Big(\\frac{2\\pi}{a}\\Big)^{3} $$\n 所以必须再切一刀，考虑次近邻六个倒格点\n $$ \\frac{2\\pi}{a}(\\pm2,0,0),\\frac{2\\pi}{a}(0,\\pm2,0),\\frac{2\\pi}{a}(0,0,\\pm2) $$\n 相应倒格矢的垂直平分面，将截去正八面体的六个顶锥，形成截角八面体（它是一个十四面体），可以证明这个十四面体的体积正好等于该倒格子原胞的体积。"
@@ -6348,7 +6348,7 @@
     "id": 2581,
     "image": "2581.jpg",
     "question": "金刚石结构的第一布里渊区如图所示的截角八面体。标出对称点、对称轴符号。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 2,
     "answer": "解答未提供具体对称点和对称轴符号的标注信息，请根据布里渊区的几何结构和对称性分析确定具体的对称点（如 $\\Gamma$、$X$、$L$ 等）和对称轴符号（如 $\\Delta$、$\\Lambda$ 等）。"
@@ -6357,7 +6357,7 @@
     "id": 2582,
     "image": "2582.jpg",
     "question": "图4.1<image>示为 $10\\mathrm{nm}$ 厚Si膜50keV电子衍射的结果。粗曲线是在非晶态膜上得到的，细曲线是同一膜经 $600^{\\circ}\\mathrm{C}$ 退化部分晶化后得到的。讨论两曲线的异同。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 1,
     "answer": "从图4.1 看到，非晶Si膜和晶化Si膜电子衍射曲线的大体走向是相似的，而且非晶Si膜的实验结果中也有衍射峰，虽然只有一个，但出现位置与晶化Si膜一样，只是强度小一点，其整条曲线比晶化Si膜衍射曲线粗。非晶Si膜与晶化Si膜的衍射曲线的异同可以解释如下。所谓非晶固体是说它的结构完全失去长程序。但由于近邻原子的相互作用，在几个原子间尺寸范围内仍表现一定的规律性，就非晶Si来说，一个原子周围的平均最近邻原子数仍接近于4，只是近邻原子间的键长与键角相对于晶态有所偏离。因此非晶硅虽然没有长程有序，但其结构却仍然保持短程有序。这必反映到其物理性质上，在电子衍射实验中，有衍射结果，其曲线大体走向类似晶态，而且还能在晶态散射波矢位置上看到衍射峰。但非晶Si膜的长程无序致使晶态Si的许多衍射峰消失，而且衍射曲线变粗，模糊了。"
@@ -6366,7 +6366,7 @@
     "id": 2583,
     "image": "2583.jpg",
     "question": "如图所示，一块抛光硅片，体内掺磷 $1 \\times 10^{15} \\, \\mathrm{cm}^{-3}$，设有均匀分布的表面态，其密度为 $1 \\times 10^{13} \\, \\mathrm{cm}^{-2} \\, \\mathrm{eV}^{-1}$，且可以用位于 $E_{V} + 0.3 \\, \\mathrm{eV}$ 中性能级表示。求室温下，体内载流子浓度。（设硅 $E_{g} = 1.12 \\, \\mathrm{eV}, N_{\\mathrm{C}} = 2.8 \\times 10^{19} \\, \\mathrm{cm}^{-3}, n_{i} = 1.5 \\times 10^{10} \\, \\mathrm{cm}^{-3}, \\varepsilon = 11.8,$ $\\varepsilon_{0} = 8.85 \\times 10^{-14} \\, \\mathrm{F}/\\mathrm{cm}, k = 8.62 \\times 10^{-5} \\, \\mathrm{eV}/\\mathrm{K}, e = 1.6 \\times 10^{-19} \\, \\mathrm{C}$）",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 1,
     "answer": "磷杂质原子全电离，硅中半导体电子浓度为：\n$$\nn = N_{\\mathrm{D}} = 1 \\times 10^{15} \\, (\\mathrm{cm}^{-3})\n$$"
@@ -6375,7 +6375,7 @@
     "id": 2584,
     "image": "2584.jpg",
     "question": "如图所示，一块抛光硅片，体内掺磷 $1 \\times 10^{15} \\, \\mathrm{cm}^{-3}$，设有均匀分布的表面态，其密度为 $1 \\times 10^{13} \\, \\mathrm{cm}^{-2} \\, \\mathrm{eV}^{-1}$，且可以用位于 $E_{V} + 0.3 \\, \\mathrm{eV}$ 中性能级表示。求室温下，体内费米能级位置。（设硅 $E_{g} = 1.12 \\, \\mathrm{eV}, N_{\\mathrm{C}} = 2.8 \\times 10^{19} \\, \\mathrm{cm}^{-3}, n_{i} = 1.5 \\times 10^{10} \\, \\mathrm{cm}^{-3}, \\varepsilon = 11.8,$ $\\varepsilon_{0} = 8.85 \\times 10^{-14} \\, \\mathrm{F}/\\mathrm{cm}, k = 8.62 \\times 10^{-5} \\, \\mathrm{eV}/\\mathrm{K}, e = 1.6 \\times 10^{-19} \\, \\mathrm{C}$）",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 4,
     "answer": "半导体硅体内费米能级位置由电子浓度公式 $\\displaystyle n = N_{\\mathrm{C}} \\mathrm{e}^{-\\frac{E_{\\mathrm{C}} - E_{\\mathrm{F}}}{k_{\\mathrm{B}} T}}$ 得：\n$$\nE_{\\mathrm{F}} = E_{\\mathrm{C}} - k_{\\mathrm{B}} T \\ln{\\frac{N_{\\mathrm{C}}}{N_{\\mathrm{D}}}} = E_{\\mathrm{C}} - k_{\\mathrm{B}} T \\ln{\\left(\\frac{2.8 \\times 10^{19}}{1 \\times 10^{15}}\\right)} = E_{\\mathrm{C}} - 0.026 \\times 10.24\n$$"
@@ -6384,7 +6384,7 @@
     "id": 2585,
     "image": "2585.jpg",
     "question": "如图所示，一块抛光硅片，体内掺磷 $1 \\times 10^{15} \\, \\mathrm{cm}^{-3}$，设有均匀分布的表面态，其密度为 $1 \\times 10^{13} \\, \\mathrm{cm}^{-2} \\, \\mathrm{eV}^{-1}$，且可以用位于 $E_{V} + 0.3 \\, \\mathrm{eV}$ 中性能级表示。求室温下，自由硅表面势。（设硅 $E_{g} = 1.12 \\, \\mathrm{eV}, N_{\\mathrm{C}} = 2.8 \\times 10^{19} \\, \\mathrm{cm}^{-3}, n_{i} = 1.5 \\times 10^{10} \\, \\mathrm{cm}^{-3}, \\varepsilon = 11.8,$ $\\varepsilon_{0} = 8.85 \\times 10^{-14} \\, \\mathrm{F}/\\mathrm{cm}, k = 8.62 \\times 10^{-5} \\, \\mathrm{eV}/\\mathrm{K}, e = 1.6 \\times 10^{-19} \\, \\mathrm{C}$）",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 4,
     "answer": "若以价带顶为能量零点，体内费米能级 $(E_{\\mathrm{F}})_{P E}$ 表示为：\n$$\n(E_{\\mathrm{F}})_{\\mathbb{R}} = E_{g} - 0.27 = 1.12 - 0.27 = 0.85 \\, (\\mathrm{eV})\n$$\n显然 $, 0.85 \\, \\mathrm{eV} > 0.3 \\, \\mathrm{eV}$，体内费米能级比硅表面中性能级高，于是电子从体内流向表面，从而在靠近硅表面形成一层由荷正电的电离施主所构成的空间电荷层，表面和体内有了电势差 $V_{s}$:\n$$\ne V_{\\mathrm{s}} = (E_{\\mathrm{F}})_{\\mathrm{iff}} - (E_{\\mathrm{F}})_{\\mathrm{s}} = 0.85 - 0.3 = 0.55 \\, \\mathrm{(eV)}\n$$"
@@ -6393,7 +6393,7 @@
     "id": 2586,
     "image": "2586.jpg",
     "question": "假定每个原子只有一个电子，画出格常数为 $a$ 的二维简单正方格子的费米面（实际上是线），并分别表示出周期场非常弱及较强情况。图1.74<image>给出了参考示意图。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 1,
     "answer": "如图1.74所示，晶格常数为 $a$ 的二维正方格子中，假设包含有 $N$ 个原子，其面积等于 $N a^{2},$ 一个原子贡献一个电子，正方格子中一共有 $N$ 个电子。如果是自由电子，则应填充费米半径为 $k_{F}$ 的费米圆：\n $$ N=2\times{\frac{A}{(2\\pi)^{2}}}\\cdot\\pi k_{\\mathrm{F}}^{2}={\frac{k_{\\mathrm{F}}^{2}A}{2\\pi}} $$ \n 式中 $,A$ 是二维格子的面积，则其电子浓度 $n=\frac{N}{A},$ 代入上式有：\n $$ k_{\\mathrm{F}}^{2}=2\\pi n $$ \n 所以费米圆半径决定于晶格中电子的浓度。对正方二维格子 $n=\frac{1}{a^{2}},$ 则：\n $$ k_{\\mathrm{F}}=\frac{\\sqrt{2\\pi}}{a} $$ \n 二维正方格子的倒格子仍为正方格子，倒格子基矢长度 $b=\frac{2\\pi}{a},$ 代入上式，费米圆半径：\n $$ k_{\\mathrm{F}}={\frac{2\\pi}{a}}\\ast{\frac{\\sqrt{2\\pi}}{2\\pi}}={\frac{1}{\\sqrt{2\\pi}}}\\ast b={\\sqrt{\frac{2}{\\pi}}}\\cdot{\frac{b}{2}}=0.80\\left({\frac{b}{2}}\right) $$ \n 所以费米面（线）在第一布里渊区之内。当晶格周期势很弱时，费米面近似为一个圆，如图1.74（a）所示。但若周期势场强时，在费米面接近布里渊区边界时发生畸变，向边界突出，见图1.74（b）。"
@@ -6402,7 +6402,7 @@
     "id": 2587,
     "image": "2587.jpg",
     "question": "铜（Cu）锗（Ge）和氯化钠（NaCl）的电阻率随温度的变化曲线如图所示。这些曲线描述“实际”的高纯样品，纯度大于99.99%，但不是100%。分别概述每种导电的基本过程并解释图示中铜（Cu）的电阻率随温度变化的关系。（注意，三个图的坐标单位是不同的。）",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 4,
     "answer": "铜（Cu）是金属，其电阻率随温度变化的曲线显示为：\n- $T=0\\mathrm{K}$ 时，有小的恒定电阻值；\n- $T \\leqslant \\Theta_{\\mathrm{D}}$ 时，$\\rho \\propto T^{5}$；\n- $T \\geqslant \\Theta_{\\mathrm{D}}$ 时，$\\rho \\propto T$。\n\n这是因为金属的电阻率 $\\rho$ 和散射概率 $P$ 之间存在着关系：\n$$\n\\rho = \\frac{m^{*}}{n e^{2}} P\n$$\n其中，$m$ 是电子质量，$P = P_{\\mathrm{MF}} + P_{\\mathrm{MA/H}}$。\n\n(a) $T \\approx 0\\mathrm{K}$:\n由于 $P_{\\text{impurity}} \\to 0$，所以 $\\rho$ 由杂质决定，故 $\\rho$ 与温度无关，是最小的恒定值。\n\n(b) $T \\ll \\Theta_{\\mathrm{D}}$:\n在低温下，$\\rho$ 主要由 $P_{\\mathrm{MF}}$ 决定，而此时\n$$\nP_{\\mathrm{MF}} \\propto T^{5}\n$$\n所以 $\\rho$ 与 $T^{5}$ 成正比。\n\n(c) $T \\geq \\Theta_{\\mathrm{D}}$:\n$\\rho$ 由 $P_{\\mathrm{MA/H}}$ 决定，而在高温时\n$$\nP_{\\mathrm{MA/H}} \\propto \\text{声子浓度} \\propto T\n$$\n所以 $\\rho$ 与 $T$ 成比例。"
@@ -6411,7 +6411,7 @@
     "id": 2588,
     "image": "2588.jpg",
     "question": "铜（Cu）锗（Ge）和氯化钠（NaCl）的电阻率随温度的变化曲线如图所示。这些曲线描述“实际”的高纯样品，纯度大于99.99%，但不是100%。分别概述每种导电的基本过程并解释图示中锗（Ge）的电阻率随温度变化的关系。（注意，三个图的坐标单位是不同的。）",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 5,
     "answer": "锗（Ge）是半导体，曲线显示为：\n- 低温段：$\\rho$ 随温度升高而减小；\n- 中温段：$\\rho$ 随温度升高而增大；\n- 高温段：$\\rho$ 随温度升高而急剧下降。\n\n这是因为：\n\n(a) 低温段：\n由于低温下杂质激发占主导地位，随着温度的升高，杂质激发的载流子数目增加，因而 $\\rho$ 随 $T$ 升高而减小。\n\n(b) 中温段：\n由于在此温度范围，杂质全部电离，载流子数目不变，而此时由于晶格散射随温度升高而增加，导致迁移率下降，故 $\\rho$ 随温度的升高而增大。\n\n(c) 高温段：\n由于高温下本征激发开始，载流子浓度将随温度的升高而急增，故 $\\rho$ 随温度的升高而急剧下降。"
@@ -6420,7 +6420,7 @@
     "id": 2589,
     "image": "2589.jpg",
     "question": "铜（Cu）锗（Ge）和氯化钠（NaCl）的电阻率随温度的变化曲线如图所示。这些曲线描述“实际”的高纯样品，纯度大于99.99%，但不是100%。分别概述每种导电的基本过程并解释图示中氯化钠（NaCl）的电阻率随温度变化的关系。（注意，三个图的坐标单位是不同的。）",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 5,
     "answer": "氯化钠（NaCl）是离子晶体，半对数 $\\rho-T$ 曲线显示为在高、低温区为斜率不同的直线。\n\n这是因为在离子晶体中主要是由空位导电，而空位数\n$$\nN \\propto \\mathrm{e}^{-u_{0}/k_{\\mathrm{B}}T},\n$$\n式中 $u_{0}$ 为激活能。\n- 在低温时，主要是杂质空位导电；\n- 在高温时，则是由热运动所产生的空位导电。\n\n由于两者的激活能不同，因而曲线显示为斜率不同的直线。"
@@ -6429,7 +6429,7 @@
     "id": 2590,
     "image": "2590.jpg",
     "question": "如图所示，自旋磁化率微弱地依赖于温度的形式为：\n $$ \\chi(T)=\\chi(0)(1+\\alpha T^{2}) $$\n 你认为 $\\alpha$ 是正的还是负的？（只要定性的论证即可）",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 1,
     "answer": "在 $T\\neq0$ 情况，表示电子统计分布参量一费米能级 $E_{\\mathrm{{F}}}$ 是温度的函数 $,E_{\\mathrm{F}}=$ $E_{\\mathrm{{F}}}(T),$ 温度越高 $E_{\\mathrm{F}}(T)$ 越低，而且 $E_{\\mathrm{{F}}}(T)<E_{\\mathrm{{F}}}^{\\mathrm{{o}}}.$ 我们可以定性理解这个物理结果.先设想 $E_{\\mathrm{{F}}}$ 不随温度变化，保持等于 $E_{\\mathrm{F}}^{\\circ}.$ 有限温度下的费米-狄拉克分布函数 $f(E)$ 表示在 $E_{\\mathrm{F}}^{\\circ}$$ 以下的概率将减少. $E_{\\mathrm{F}}^{\\circ}$$ 以上的概率将增加，而且 $E_{\\mathrm{F}}^{\\circ}$$ 上下的增加和减少对 $E_{\\mathrm{F}}^{\\circ}$$ 是对称的，如图3.9中两个相似的斜线面积所表示，但上面推导的能态密度函数公式指出 $,g(E)$ 随 $E$ 的增加而增大，在 $E_{\\mathrm{F}}^{\\circ}$$ 以上的 $g(E)$ 比 $E_{\\mathrm{F}}^{0}$$ 以下稍大.这就意味着电子总数将有所增加，所以实际上 $E_{\\mathrm{{F}}}$ 略为降低以补偿上述效果，而保持金属中电子总数不变.\n 在 $T\\neq0$ 金属电子磁化率近似用下式描述：\n $$ \\chi\\approx\\mu_{\\mathrm{B}}^{2}g(E_{\\mathrm{F}}) $$\n 显然 $,E_{\\mathrm{F}}{<}E_{\\mathrm{F}}^{\\circ},g(E_{\\mathrm{F}}){<}g(E_{\\mathrm{F}}^{\\circ}).$ 所以温度上升，电子磁化率x在下降 $,\\chi=\\chi(T)=\\chi(0)(1+_{\\alpha}T^{2}),$ 式中 $\\alpha$ 应是负值"
@@ -6438,7 +6438,7 @@
     "id": 2591,
     "image": "2591.jpg",
     "question": "考虑一个一维周期势场 $u(x),$ 可看作是宽度为 $a,$ 中心位于 $x = n a$ （$n$ 是整数）的全同势场 $V(n)$ 的组合。图1.59<image>所画的势垒 $V(x)$ 可用入射电子的透射系数 $t(k)$ 和反射系数 $r(k)$ 来表征，入射电子的能量为 $E = \frac{\\hbar^2 k^2}{2m}$。对单势垒的情况，写出能量为 $E = \frac{\\hbar^2 k^2}{2m}$ 的电子的波函数的最一般解。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 5,
     "answer": "从单势垒左边射入的能量为 $E$ 的电子波函数表示为：\n$$\n\\Psi_{l}(x)=\\left\\{\\begin{array}{ll}\n\\mathrm{e}^{\\mathrm{i}k x}+r_{l}\\mathrm{e}^{-\\mathrm{i}k x}, & x \\leqslant -\\frac{a}{2} \\\\\nt_l \\mathrm{e}^{\\mathrm{i}k x}, & x \\geqslant \\frac{a}{2}\n\\end{array}\\right.\n$$\n式中 $,k$ 由 $E=\\frac{\\hbar^{2}k^{2}}{2m}$ 确定。对于从右边入射电子波函数则为：\n$$\n\\Psi_{r}(x)=\\left\\{\\begin{array}{ll}\n\\mathrm{e}^{-i k x}+r_{r}\\mathrm{e}^{i k x}, & x \\geqslant \\frac{a}{2} \\\\\nt_r \\mathrm{e}^{-\\mathrm{i}k x}, & x \\leqslant -\\frac{a}{2}\n\\end{array}\\right.\n$$\n如果 $V(x)$ 不对称，左右入射电子的反射系数和透射系数就各不相同了，一般解为 $\\Psi_{l}(x)$ 和 $\\Psi_{r}(x)$ 的线性叠加：\n$$\n\\varPsi(x) = A\\varPsi_{l}(x) + B\\varPsi_{r}(x)\n$$\n其中 $A,B$ 是实常数。"
@@ -6447,7 +6447,7 @@
     "id": 2592,
     "image": "2592.jpg",
     "question": "考虑一个一维周期势场 $u(x),$ 可看作是宽度为 $a,$ 中心位于 $x = n a$ （$n$ 是整数）的全同势场 $V(n)$ 的组合。图1.59<image>所画的势垒 $V(x)$ 可用入射电子的透射系数 $t(k)$ 和反射系数 $r(k)$ 来表征，入射电子的能量为 $E = \\frac{\\hbar^2 k^2}{2m}$。对晶体哈密顿量的情况，即 $u(x) = \\sum_{n=-\\infty}^{+\\infty} V(x+n a),$ 布洛赫电子的能量与波矢 $k$ 的关系如何？证明这对自由电子 $(V=0)$ 给出了正确的答案。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 2,
     "answer": "对于晶格周期势场：\n$$\nU(x) = \\sum_{n=-\\infty}^{+\\infty} V(x+n a)\n$$\n在 $-\\frac{a}{2} \\leq x \\leq \\frac{a}{2}$ 这个区域里，晶体哈密顿量与单个势垒情形是一样的，可以用上面的 $\\psi(x)$ 表示这个区域里晶体薛定谔方程的解：\n$$\n\\psi(x) = A\\psi_{l}(x) + B\\psi_{r}(x), \\quad -\\frac{a}{2} \\leqslant x \\leqslant \\frac{a}{2}\n$$\n由布洛赫定理：\n$$\n\\Psi(x+a) = \\mathrm{e}^{\\mathrm{i}K a}\\Psi(x)\n$$\n这里 $K$ 是正实常数，上式微分后的形式：\n$$\n\\Psi^{\\prime}(x+a) = \\mathrm{e}^{\\mathrm{i}K a}\\Psi^{\\prime}(x)\n$$\n考虑上面式子在 $x = -\\frac{a}{2}$ 时，得出：\n$$\n\\begin{aligned}\n&A\\Psi_{l}\\Big(\\frac{a}{2}\\Big)+B\\Psi_{r}\\Big(\\frac{a}{2}\\Big) = \\mathrm{e}^{\\mathrm{i}K a}\\Big[A\\Psi_{l}\\Big(-\\frac{a}{2}\\Big)+B\\Psi_{r}\\Big(-\\frac{a}{2}\\Big)\\Big] \\\\\n&A\\Psi_{l}^{\\prime}\\Big(\\frac{a}{2}\\Big)+B\\Psi_{r}^{\\prime}\\Big(\\frac{a}{2}\\Big) = \\mathrm{e}^{\\mathrm{i}K a}\\Big[A\\Psi_{l}^{\\prime}\\Big(-\\frac{a}{2}\\Big)+B\\Psi_{r}^{\\prime}\\Big(-\\frac{a}{2}\\Big)\\Big]\n\\end{aligned}\n$$\n进一步整理后得到：\n$$\n(t_{l}t_{r}-r_{l}r_{r})\\mathrm{e}^{\\mathrm{i}k a}+\\mathrm{e}^{-\\mathrm{i}k a}=t_{l}\\mathrm{e}^{-\\mathrm{i}K a}+t_{r}\\mathrm{e}^{\\mathrm{i}K a}\n$$\n这就是电子能量 $E = \\frac{\\hbar^{2}k^{2}}{2m}$ 与电子波矢 $k$ 的关系。\n\n对晶体来说，通常存在对称性 $,V(x)=V(-x),$ 如果是这样 $,r_{l}=r_{r}=r,t_{l}=t_{r}=t,$ 上述关系变为：\n$$\n(t^{2}-r^{2})\\mathrm{e}^{\\mathrm{i}k a}+\\mathrm{e}^{-\\mathrm{i}k a}=2t\\mathrm{cos}(K a)\n$$\n对自由电子来说 $,r=0,t=1,$ 故：\n$$\nK=k\n$$\n这是正确的，因为自由粒子的波矢就是能量表达式中的 $k$。"
@@ -6456,7 +6456,7 @@
     "id": 2593,
     "image": "2593.jpg",
     "question": "考虑一个一维周期势场 $u(x),$ 可看作是宽度为 $a,$ 中心位于 $x = n a$ （$n$ 是整数）的全同势场 $V(n)$ 的组合。图1.59<image>所画的势垒 $V(x)$ 可用入射电子的透射系数 $t(k)$ 和反射系数 $r(k)$ 来表征，入射电子的能量为 $E = \\frac{\\hbar^2 k^2}{2m}$。回想 $r$ 和 $t$ 的一些简单性质，证明布洛赫波只在一些能带中才能发生。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 5,
     "answer": "$r$ 和 $t$ 最简单的性质就是：\n$$\n|r|^2 + |t|^2 = 1\n$$\n可设：\n$$\nt = |t|\\mathrm{e}^{\\mathrm{i}\\delta}\n$$\n对一维薛定谔方程存在下列定理：若 $\\varphi_{1},\\varphi_{2}$ 是方程的两个解，那么：\n$$\nW(\\varphi_{1},\\varphi_{2}) = \\varphi_{1}^{\\prime}(x)\\varphi_{2}(x) - \\varphi_{1}(x)\\varphi_{2}^{\\prime}(x)\n$$\n和 $x$ 无关。\n\n因为势场 $V(x)$ 是实的，所以 $\\Psi_{l}^{*}(x)$ 也是方程的一个解，对 $x \\leqslant -\\frac{a}{2}$ 和 $x \\geqslant \\frac{a}{2}$ 计算 $W(\\Psi_{l},\\Psi_{l}^{*})$ 就可以证明(1)式的正确性。如计算 $W(\\Psi_{l},\\Psi_{r}^{*}),$ 则有：\n$$\nr t^{*} + t r^{*} = 0\n$$\n即 $r t^{*}$ 是纯虚数，所以：\n$$\nr = \\pm \\mathrm{i} |r| \\mathrm{e}^{\\mathrm{i}\\delta}\n$$\n把（1）、（2）、（3）式代入 $\\cos K a = \\frac{t^{2}-r^{2}}{2t}\\mathrm{e}^{\\mathrm{i}k a} + \\frac{1}{2t}\\mathrm{e}^{-\\mathrm{i}k a}$ 中，得到：\n$$\n\\frac{\\cos(k a+\\delta)}{|t|} = \\cos K a\n$$\n$|t|<1$ 随 $k$ 增大 $,|t| \\to 1,$ 所以把（4）式的左边画出按 $k$ 的变化（如图1.60（b))。\n\n由于 $\\cos K a$ 必须在 $-1$ 到 $+1$ 之间变化，所以有些 $k$ 值（图1.60（b）中阴影部分）不能取，也即这样的 $k$ 值对应的能量是禁带，可能存在的能量只是以能带出现。"
@@ -6465,7 +6465,7 @@
     "id": 2594,
     "image": "2594.jpg",
     "question": "3.1（3）如图所示，水是一种极性分子，讨论高频及低频时上述现象对其介电常数的影响。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 1,
     "answer": "在交变电场中，介质内的极化也要不断地改变，当电场改变相当迅速时，极性分子的取向就会跟不上电场的变化而滞后，因此取向极化是一种弛豫过程，要经历一弛豫时间 $\\tau,$ 这种弛豫在变动电场中就引起介质损耗，这就使得介电常数含有虚部$\\varepsilon=\\varepsilon_{1}+\\mathrm{i}\\varepsilon_{2},$ 理论分析表明，介电常数的实部与虚部均是频率 $\\omega$ 的函数，图3.1示出 $\\varepsilon_{1}$ 和 $\\varepsilon_{2}$ 对 $\\log(\\omega\\tau)$ 的关系曲线。\n\n低频 $(\\omega\\tau\\ll1)$ 时，介质损耗很小 $,\\varepsilon_{2}\\to0,$ 所以$\\varepsilon=\\varepsilon_{1}=\\varepsilon_{0}$ （静电介电常数）。当频率增高时，取向极化跟不上电场变化而滞后，引起介质损耗，随着频率的增高，介电常数要减小。当频率足够高 $(\\omega\\tau{\\gg}1)$ 时，偶极子完全不能响应外场而取向，以至对介质极化不作贡献，此时一E（高频介电常数）。"
@@ -6474,7 +6474,7 @@
     "id": 2595,
     "image": "2595.jpg",
     "question": "如图所示，设晶体电子有一统一有效质量 $m^{*}$，这时若有一个恒定磁场射入，给晶体电子在磁场中发生回旋共振现象予以量子解释。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 1,
     "answer": "从量子力学来看，电子回旋共振的实质是，当磁场交变频率为 $\\omega_{\\mathrm{c}}$ 时，电子将从磁场中吸收 $(h\\omega_{\\mathrm{c}})$ 能量，而在朗道能级之间跃迁。显然，从 $\\omega_{\\mathrm{c}} = \\frac{e B}{m^{*}}$ 得知，交变磁场强度 $B$ 和交变频率 $\\omega_{\\mathrm{c}}$ 可以得出电子的有效质量。这就是电子回旋共振法测量半导体电子有效质量的原理。"
@@ -6483,7 +6483,7 @@
     "id": 2596,
     "image": "2596.jpg",
     "question": "简要描述约瑟夫森隧道效应。对于两块超导体 $S_1$ 和 $S_2$ 之间夹有一极薄绝缘层（约10Å）的结构，虽没有外加电压，但有直流电流通过这个结。这表明超导电子能够穿透两超导体之间的绝缘势垒，导致一个隧道超导电流的存在。这种隧道超导电流依赖于两超导波函数之间的耦合。\n\n![](images/147c9a18c5152259df90ab6f66b5dbff7cdc04a0cf77fe45f9acc3987d036505.jpg)  \n图3.16",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 1,
     "answer": "超导电子（库珀对）的运动可用波函数来描述，产生在 $S_1, S_2$ 区的波函数都分别按指数式衰减进入绝缘层，如图3.16所示。$\\varphi_1 \\cdot \\varphi_2$ 是两部分波的相位，则绝缘层中总的波函数为：\n$$\n\\begin{array}{r}\n\\psi = \\mathrm{e}^{\\mathrm{i}\\varphi_1} \\mathrm{e}^{-k(x+a)} + \\mathrm{e}^{\\mathrm{i}\\varphi_2} \\mathrm{e}^{k(x-a)} \\\\\n= \\mathrm{e}^{-k a} (\\mathrm{e}^{\\mathrm{i}\\varphi_1 - k x} + \\mathrm{e}^{\\mathrm{i}\\varphi_2 + k x})\n\\end{array}\n$$\n由量子力学概率流密度公式：\n$$\nJ = -\\frac{\\mathrm{i}h}{2m} (\\psi^* \\nabla \\psi - \\psi \\nabla \\psi^*)\n$$\n和电流密度公式：\n$$\nj = q J\n$$\n则结中电流可写成：\n$$\n\\begin{array}{l}\nj = -\\frac{\\mathrm{i}h q}{2m} (\\psi^* \\nabla \\phi - \\phi \\nabla \\psi^*) \\\\\n\\quad = \\frac{2h q}{m} k \\mathrm{e}^{-2k a} \\sin(\\varphi_2 - \\varphi_1) \\\\\n\\quad = j_0 \\sin(\\varphi_2 - \\varphi_1)\n\\end{array}\n$$\n式中 $2hgkg。-24$。因此，虽没有外加电压，但只要两超导波函数的耦合存在相位差，就会有超导电流存在。"
@@ -6492,7 +6492,7 @@
     "id": 2597,
     "image": "2597.jpg",
     "question": "实验测得，铁在 $20^\\circ C$ 时,最小的三个衍射角分别为 $8^\\circ 12',11^\\circ 38',14^\\circ 18',$ 而加热到 $1000^\\circ C$ ，最小的三个衍射角变成 $7^\\circ 55',9^\\circ 9',12^\\circ 59'.$ 在 $20 \\sim 1000^\\circ C$ 温度范围内，铁金属属立方结构，试分析 $20^\\circ C$ 和 $1000^\\circ C$ 下，铁各属于哪种立方结构。图1.22<image>为参考示意图。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 2,
     "answer": "题设铁金属属立方结构。由推导可知：\n\n对于体心立方结构，当 $n(h+k+l)$ 为奇数时，衍射光消失，只有当 $n(h+k+l)$ 为偶数时才会见到衍射斑点。取 $n=1,$ 则对应于最小三个衍射角的最简单的面指数依次为（1，$1,0), (2,0,0), (2,1,1),$ 这三个衍射角的衍射面指数的方均根值之比为：\n\n$$\n\\sqrt{1^{2}+1^{2}+0^{2}}:\\sqrt{2^{2}+0+0}:\\sqrt{2^{2}+1^{2}+1^{2}}=1:1.41421:1.73205\n$$\n\n实验测得铁在 $20^\\circ C$ 时，最小的三个衍射角的正弦值之比为：\n\n$$\n\\sin8^\\circ 12':\\sin11^\\circ 38':\\sin14^\\circ 18'=0.142628:0.201591:0.246999\n$$\n\n$$\n=1:1.41340:1.73177\n$$\n\n与体心立方结构的理论结果非常接近，因此铁在 $20^\\circ C$ 时应为体心立方结构。\n\n对于面心立方结构，当 $nh, nk, nl$ 全为奇数或全为偶数时，衍射极大。令 $n=1,$ 对应最小的三个衍射角的最简单衍射面指数依次为（1，$1,1), (2,0,0), (2,2,0),$ 这三个衍射面指数方均根值之比为：\n\n$$\n\\sqrt{1^{2}+1^{2}+1^{2}}:\\sqrt{2^{2}+0+0}:\\sqrt{2^{2}+2^{2}+0^{2}}=1:1.15470:1.63299\n$$\n\n实验测得铁在 $1000^\\circ C$ 时，最小的三个衍射角的正弦值之比为：\n\n$$\n\\sin7^\\circ 55':\\sin9^\\circ 9':\\sin12^\\circ 59'=0.137733:0.159020:0.224668\n$$\n\n$$\n=1:1.15455:1.63118\n$$\n\n与面心立方结构的理论结果非常接近，因此铁在 $1000^\\circ C$ 时应为面心立方结构。"
@@ -6501,7 +6501,7 @@
     "id": 2598,
     "image": "2598.jpg",
     "question": "如图所示，直接带隙纯净的半导体InP在低温下（$T\\approx4\\mathrm{K}$）的吸收光谱中，以 $A$ 为阈值的连续吸收谱和 $C$ 处的吸收峰的物理来源是什么？",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 2,
     "answer": "以 $A$ 处为阈值的连续吸收谱是由InP的本征吸收造成的，即入射光子把能量给价带电子使其跃迁到导带，只要 $h\\gamma \\geq E_g$ 就可发生吸收，所以存在阈值。\n\n当入射光子 $h\\gamma < E_g$ 能量时，光子的能量不足以把电子从价带激发到导带，而形成自由的电子和空穴，但这种光激发所产生的电子与空穴之间的库仑相互作用将导致电子-空穴束缚态的形成，这种过程导致带边附近的附加吸收——激子吸收。对于松束缚激子，可用类氢模型描述，因此激子能级和类氢原子能级相似。这样就出现了 $C$ 处的吸收峰。"
@@ -6510,7 +6510,7 @@
     "id": 2599,
     "image": "2599.jpg",
     "question": "如图所示，直接带隙纯净的半导体InP在低温下（$T\\approx4\\mathrm{K}$）的吸收光谱中，如何计算InP中的直接带隙宽度？",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 5,
     "answer": "$$E_8 = E_A = 1.4\\,\\mathrm{eV}.$$"
@@ -6519,7 +6519,7 @@
     "id": 2600,
     "image": "2600.jpg",
     "question": "如图所示，直接带隙纯净的半导体InP在低温下（$T\\approx4\\mathrm{K}$）的吸收光谱中，在室温下 $C$ 处的峰被展宽看不清楚（虚线所示），解释这种效应。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 2,
     "answer": "室温下，由于晶格振动加剧，激子系统中的电子将与晶格振动的光频支产生相互作用，这种作用使得激子吸收谱线变宽，因而 $C$ 处的峰看不清楚了，光谱线变为光带。"
@@ -6528,7 +6528,7 @@
     "id": 2601,
     "image": "2601.jpg",
     "question": "一固体（ErRnB，掺杂，但并未有意损伤）的电阻率与温度的关系如图所示<image>。从图中看，该固体是金属还是绝缘体？",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 4,
     "answer": "由图看出，此种材料的电阻率随温度的增大而增大，而且在 $T=300\\mathrm{K}$ 时，电阻率较小 $\\left(\rho\\approx10^{-4}\\Omega\\cdot\\mathrm{cm}\right),$ 因此此材料是金属。"
@@ -6537,7 +6537,7 @@
     "id": 2602,
     "image": "2602.jpg",
     "question": "一固体（ErRnB，掺杂，但并未有意损伤）的电阻率与温度的关系如图所示<image>。描述产生电阻的主要物理过程，并解释在以下三个区内电阻率与温度的关系：(a) $T \\sim 0\\mathrm{K};$ (b) $T \\sim 25\\mathrm{K};$ (c) $T \\sim 300\\mathrm{K}.$",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 2,
     "answer": "电子在输运过程中，由于晶格振动及晶体中的杂质、缺陷等导致严格周期势场的偏离，使电子遭到散射，因而产生电阻，故金属的电阻率可写为：\n\n(a) $T = 0\\mathrm{K}$ 时，金属电阻主要决定于杂质，即所谓“剩余”电阻，它与温度无关，故此时 $\\overline{\rho}=\rho_{i}=$ 常数，由图中查出 $\rho\\approx27\times10^{-6}\\Omega\\cdot\\mathrm{cm}.$\n\n(b) $T \\sim 25\\mathrm{K}$ 时，仍存在杂质散射，但主要是格波对电子散射导致的电阻。由于低温下，只有长波声子可被激发，而长声学波声子的动量和能量都很小，沿电场方向的电子动量改变很小，因而散射角较小。有效散射数 $\\phi \\propto \frac{1}{T^2},$ 且声子浓度 $n_s \\propto T^3,$ 故电阻率 $\rho \\propto T^5.$\n\n(c) $T \\sim 300\\mathrm{K}$ 时，高温下，散射角较大，每次碰撞基本上都使沿电场方向上的电子波矢减为零，因此有效散射数 $\\phi \\approx 1.$ 按德拜理论，声子浓度 $n_s \\propto T,$ 故电阻率 $\rho \\propto T.$"
@@ -6546,7 +6546,7 @@
     "id": 2603,
     "image": "2603.jpg",
     "question": "考虑一本征半导体，让 $E$ 表示一个电子的能量 $,g_{\\mathrm{c}}\\left(E\\right)$ 表示导带的态密度，$g_{\\mathrm{v}}(E)$ 表示价带的态密度.假设 $E_{\\mathrm{{c}}}-E_{\\mathrm{{F}}}{\\gg}k_{\\mathrm{{B}}}T$ 和 $E_{\\mathrm{{F}}}{-E_{\\mathrm{{V}}}}{\\gg k_{\\mathrm{{B}}}T},$ \n\n$$\n\\begin{array}{r}{g_{\\mathrm{c}}(E)=c_{1}(E-E_{\\mathrm{c}})^{\\frac{1}{2}},g_{\\mathrm{V}}(E)=c_{2}(E_{\\mathrm{V}}-E)^{\\frac{1}{2}}}\\end{array}\n$$\n\n其中 $,E_{\\mathrm{{C}}}$ 和 $E_{\\mathrm{V}}$ 分别表示导带底和价带顶的能量 $,E_{F}$ 是费米能（如图2.14<image>）.\n用 $k_{\\mathrm{B}},T,c_{1},E_{\\mathrm{C}},E_{\\mathrm{F}}$ 和一个无量纲积分表示导带的电子密度；",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 2,
     "answer": "导带中电子浓度 $n$\n\n$$\nn=\\int_{E_{c}}^{\\infty}f_{e}(E)g_{c}(E)\\mathrm{d}E\n$$\n\n$,f_{\\mathrm{e}}=\\frac{1}{\\mathrm{e}^{\\beta(E-E_{\\mathrm{F}})}+1},\\beta{=}\\frac{1}{k_{\\mathrm{B}}T}.$ 因为 $E_c - E_F \\gg k_B T,$ 所以\n\n$$\nf_{\\mathrm{e}}(E)\\approx\\mathrm{e}^{-\\beta(E-E_{\\mathrm{F}})}\n$$\n\n令 $x=\\beta(E-E_{\\mathrm{F}}),$ 则有\n\n$$\n\\begin{array}{r l}{\\lefteqn{n{\\stackrel{}{=}}\\int_{E_{\\mathrm{G}}}^{\\infty}\\bar{g}_{C}(E){\\mathrm{e}}^{-\\beta(E-E_{\\mathrm{F}})}\\mathrm{d}E{\\stackrel{}{=}}}}&{{\\bar{g}^{-3/2}c_{1}{\\mathrm{e}}^{-\\beta(E_{\\mathrm{C}}-E_{\\mathrm{F}})}\\Biggl\\int_{0}^{\\infty}x^{1/2}{\\mathrm{e}}^{-x}\\mathrm{d}x}}\\ &{=c_{1}(k_{\\mathrm{B}}T)^{3/2}{\\mathrm{e}}^{-(E_{\\mathrm{C}}-E_{\\mathrm{F}})/k_{\\mathrm{B}}T}\\Biggl\\int_{0}^{\\infty}x^{1/2}{\\mathrm{e}}^{-x}\\mathrm{d}x}\\end{array}\n$$"
@@ -6555,7 +6555,7 @@
     "id": 2604,
     "image": "2604.jpg",
     "question": "考虑一本征半导体，让 $E$ 表示一个电子的能量 $,g_{\\mathrm{c}}\\left(E\\right)$ 表示导带的态密度，$g_{\\mathrm{v}}(E)$ 表示价带的态密度.假设 $E_{\\mathrm{{c}}}-E_{\\mathrm{{F}}}{\\gg}k_{\\mathrm{{B}}}T$ 和 $E_{\\mathrm{{F}}}{-E_{\\mathrm{{V}}}}{\\gg k_{\\mathrm{{B}}}T},$ \n\n$$\n\\begin{array}{r}{g_{\\mathrm{c}}(E)=c_{1}(E-E_{\\mathrm{c}})^{\\frac{1}{2}},g_{\\mathrm{V}}(E)=c_{2}(E_{\\mathrm{V}}-E)^{\\frac{1}{2}}}\\end{array}\n$$\n\n其中 $,E_{\\mathrm{{C}}}$ 和 $E_{\\mathrm{V}}$ 分别表示导带底和价带顶的能量 $,E_{F}$ 是费米能（如图2.14<image>）.\n用 $k_{\\mathrm{B}},T,c_{2},E_{\\mathrm{V}},E_{\\mathrm{F}}$ 和一个无量纲积分表示价带的空穴密度；",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 3,
     "answer": "能级 $E$ 上空穴占有概率为\n\n$$\n1-f_{\\mathrm{e}}=1-\\frac{1}{\\mathrm{e}^{(E-E_{\\mathrm{F}})}+1}\n$$\n\n由于 $E_{\\mathrm{F}}{-}E_{\\mathrm{V}}{\\gg}k_{\\mathrm{B}}T,$ 所以\n\n$$\n1-f_{e}=\\frac{\\mathrm{e}^{\\g(E-E_{\\mathrm{F}})}}{\\mathrm{e}^{\\hslash(E-E_{\\mathrm{F}})}+1}\\approx\\mathrm{e}^{\\beta(E-E_{\\mathrm{F}})}\n$$\n\n令 $x=-\\beta(E-E_{\\mathrm{v}}),$ 则\n\n$$\n\\boldsymbol{\\phi}=\\beta^{-3/2}c_{2}\\mathrm{e}^{\\beta(E_{\\mathrm{V}}-E_{\\mathrm{F}})}\\bigg/_{0}^{\\infty}x^{1/2}\\mathrm{e}^{-x}\\mathrm{d}x=c_{2}(k_{\\mathrm{B}}T)^{3/2}\\mathrm{e}^{-(E_{\\mathrm{F}}-E_{\\mathrm{V}})/k_{\\mathrm{B}}T}\\bigg/_{0}^{\\infty}x^{1/2}\\mathrm{e}^{-x}\\mathrm{d}x\n$$"
@@ -6564,7 +6564,7 @@
     "id": 2605,
     "image": "2605.jpg",
     "question": "考虑一本征半导体，让 $E$ 表示一个电子的能量 $,g_{\\mathrm{c}}\\left(E\\right)$ 表示导带的态密度，$g_{\\mathrm{v}}(E)$ 表示价带的态密度.假设 $E_{\\mathrm{{c}}}-E_{\\mathrm{{F}}}{\\gg}k_{\\mathrm{{B}}}T$ 和 $E_{\\mathrm{{F}}}{-E_{\\mathrm{{V}}}}{\\gg k_{\\mathrm{{B}}}T},$ \n\n$$\n\\begin{array}{r}{g_{\\mathrm{c}}(E)=c_{1}(E-E_{\\mathrm{c}})^{\\frac{1}{2}},g_{\\mathrm{V}}(E)=c_{2}(E_{\\mathrm{V}}-E)^{\\frac{1}{2}}}\\end{array}\n$$\n\n其中 $,E_{\\mathrm{{C}}}$ 和 $E_{\\mathrm{V}}$ 分别表示导带底和价带顶的能量 $,E_{F}$ 是费米能（如图2.14<image>）.\n求出 $E_{\\mathrm{{F}}}(T)$ 的明确的表达式；",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 4,
     "answer": "对于本征半导体存在关系 $n{=}\\phi,$ 即\n\n$$\nc_{1}\\mathrm{e}^{-(E_{\\mathrm{C}}-E_{\\mathrm{F}})/k_{\\mathrm{B}}T}=c_{2}\\mathrm{e}^{-(E_{\\mathrm{F}}-E_{\\mathrm{V}})/k_{\\mathrm{B}}T}\n$$\n\n故\n\n$$\nE_{\\mathrm{F}}={\\frac{E_{\\mathrm{c}}+E_{\\mathrm{v}}-k_{\\mathrm{B}}T\\ln{\\frac{c_{\\mathrm{1}}}{c_{\\mathrm{2}}}}}{2}}\n$$"
@@ -6573,7 +6573,7 @@
     "id": 2606,
     "image": "2606.jpg",
     "question": "考虑一本征半导体，让 $E$ 表示一个电子的能量 $,g_{\\mathrm{c}}\\left(E\\right)$ 表示导带的态密度，$g_{\\mathrm{v}}(E)$ 表示价带的态密度.假设 $E_{\\mathrm{{c}}}-E_{\\mathrm{{F}}}{\\gg}k_{\\mathrm{{B}}}T$ 和 $E_{\\mathrm{{F}}}{-E_{\\mathrm{{V}}}}{\\gg k_{\\mathrm{{B}}}T},$ \n\n$$\n\\begin{array}{r}{g_{\\mathrm{c}}(E)=c_{1}(E-E_{\\mathrm{c}})^{\\frac{1}{2}},g_{\\mathrm{V}}(E)=c_{2}(E_{\\mathrm{V}}-E)^{\\frac{1}{2}}}\\end{array}\n$$\n\n其中 $,E_{\\mathrm{{C}}}$ 和 $E_{\\mathrm{V}}$ 分别表示导带底和价带顶的能量 $,E_{F}$ 是费米能（如图2.14<image>）.\n如果材料用施主原子掺杂，那么在（1），（2），（3）的结果中有哪一个（如果有的话）仍能成立？解释之",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 5,
     "answer": "（1），（2）中的结果仍成立，只要是平衡态，上述公式就成立。（3）的结果不再成立，因为加入杂质后不再有 $n=p$ 了 $,E_{\\mathrm{F}}$ 要移动。"
@@ -6582,7 +6582,7 @@
     "id": 2607,
     "image": "2607.jpg",
     "question": "如图所示，这是玻恩-哈伯循环示意图。要得到相对于单独的钠金属和氯气的内能，应从上面得到的量中加上或是减去什么实验物理量？忽略小于 $10\\%$ 的影响。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 2,
     "answer": "在实验上常采用玻恩-哈伯（Born-Haber）循环过程来研究离子晶体的结合能及负离子的亲合能，对NaCl晶体，玻恩-哈伯循环过程的是下面4个过程（如图1.28）：\n （a）使NaCl晶体分解成它的组成单元 $\\mathrm{(Na^{+}}$ 和 $\\mathrm{Cl^{-}}$ 离子），晶体吸收能量 $,$ 这等于晶体结合能 $U_{0}$\n (b) $\\mathrm{Na^{+}}$ 过渡到气体状态，放出电离能 $I_{\\mathrm{v}_{\\mathrm{a}}}^{\\ast},\\mathrm{Cl^{-}}$ 吸收能量 $A_{c1}^{\\dagger},$ 等于 $\\mathrm{Cl}$ 的电子的亲和能，而形成原子状态的 $\\mathrm{Cl}$\n （c）气态 Na放出升华热 $S_{\\mathrm{_{Na}^{+}}}^{\\mathrm{4}}$ 而升华,形成固态的金属 $\\mathrm{Na},\\mathrm{Cl}$ 原子放出离解能Da而过渡到分子态 $\\frac{1}{2}\\mathrm{Cl}_{2}$\n （d）固体Na同气态 $\\frac{1}{2}\\mathrm{Cl}_{2}$ 相结合，放出生成热 $Q_{\\mathrm{Na}}^{\\dagger}$ 而形成NaCl晶体\n 所以，相对于单独的钠金属和氯气的内能，应等于从上面的得出的结合能表达式 $U_{0}$ 加上钠升华热，钠电离能和氯原子离解能，而减去氯的电子亲和能。"
@@ -6591,7 +6591,7 @@
     "id": 2608,
     "image": "2608.jpg",
     "question": "设波长为 $\\lambda$ 的单色 $\\mathrm{X}$ 射线垂直于一维晶格入射，若晶格中电子的密度分布为\n $$\n \\rho(x) = \\rho_{1} \\cos\\frac{2\\pi x}{a} + \\rho_{2} \\cos\\frac{4\\pi x}{a}\n $$\n 其中 $a$ 为晶格常数，$\\rho_{1}$ 和 $\\rho_{2}$ 为常量。导出 $\\mathrm{X}$ 射线与晶格发生衍射加强的条件。\n 如图所示。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 5,
     "answer": "当相邻原子间的散射波相位差满足\n $$\n a \\cos\\theta_{n} = n \\lambda\n $$\n 时，在这些散射方向上有衍射极大。$a$ 是一维晶格常数。上述公式即为 $\\mathrm{X}$ 射线与一维晶格发生衍射加强的条件。"
@@ -6600,7 +6600,7 @@
     "id": 2609,
     "image": "2609.jpg",
     "question": "设波长为 $\\lambda$ 的单色 $\\mathrm{X}$ 射线垂直于一维晶格入射，若晶格中电子的密度分布为\n $$\n \\rho(x) = \\rho_{1} \\cos\\frac{2\\pi x}{a} + \\rho_{2} \\cos\\frac{4\\pi x}{a}\n $$\n 其中 $a$ 为晶格常数，$\\rho_{1}$ 和 $\\rho_{2}$ 为常量。求出每条衍射线的强度。\n 如图所示。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 3,
     "answer": "因为衍射强度 $I \\propto f^2(G)$，故每条衍射线的强度为：\n $$\n I_{\\pm1} \\propto \\frac{\\rho_{1}^{2}}{4}, \\quad I_{\\pm2} \\propto \\frac{\\rho_{2}^{2}}{4}.\n $$"
@@ -6609,7 +6609,7 @@
     "id": 2610,
     "image": "2610.jpg",
     "question": "如图所示，在低温下，当能带中载流子极少时，杂质带中载流子的导电性将表现出来。设杂质带中电子迁移率为 $\\mu_{\\mathrm{Ḋ}}$，半导体导带中电子迁移率 $\\mu_{\\mathrm{n}}$，可以把它们看作两种不同的载流子，试求磁场作用下的霍尔系数。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 5,
     "answer": "首先应用霍尔角的概念来推导两种载流子情况下半导体霍尔系数的公式。当对通有电流半导体施加磁场时，由于洛伦兹力，在垂直电流方向产生一个横向电场称霍尔电场，可以利用下列便于想像的方式（见图2.20）获得这个横向电场的大小。设想没有磁场存在时，由于电场 $\\varepsilon_{x}$ 引起的沿导体方向（即 $x$ 轴）的电流密度：\n$$ j_{x}=\\sigma\\varepsilon_{x} $$\n加上 $\\boldsymbol{z}$ 方向的磁场，它的唯一作用可以看作是使电流偏转一个角度 $\\theta_{-}$，而基本上不改变电流的大小，在 $\\theta_{-}$ 很小的条件下，这个效果可以看成是在横向产生电流：\n$$ j_{y}=j_{x}\\theta_{-} $$\n电流密度 $j_{x}$ 由两部分组成，电场 $\\varepsilon_{x}$ 引起导带中电子的电流 $(j_{n})_{x}$ 和杂质带中电子电流$(j_{\\mathrm{D}})_{x}$，即：\n$$ j_{x}=({j_{\\mathrm{s}}})_{x}+({j_{n}}_{\\mathrm{D}})_{x} $$\n导带中电子电流 $(j_{\\mathrm{{n}}})_{\\mathrm{{\\alpha}}}$ 和杂质带中电子电流密度分别为：\n$$ (j_{\\mathrm{{n}}})_{x}=n e\\mu_{\\mathrm{{n}}}\\varepsilon_{x} $$\n和\n$$ (j_{\\mathrm{~\\tiny~n~}_{\\mathrm{D}}})_{x}=n e_{ Ḋ }\\mu_{ Ḋ }\\mathrm{Ḋ}\\varepsilon Ḍ Ḍ _{x} $$\n在磁场 $B_{z}$ 作用下，它们产生的 $y$ 方向偏转电流分别是：\n$$ (j_{\\mathrm{n_{D}}})_{x}\\theta_{-} $$\n于是 $y$ 方向偏转电流：\n$$ \\begin{array}{c}{{j_{y}=(j_{\\mathrm{a}})_{x}\\theta_{-}+(j_{\\mathrm{a}_{\\mathrm{D}}})_{x}\\theta_{-}=n e\\mu_{\\mathrm{a}}\\varepsilon_{x}(-{\\mu_{\\mathrm{a}}}B_{z})+n_{\\mathrm{D}}e\\mu_{\\mathrm{D}}\\varepsilon_{x}(-{\\mu_{\\mathrm{D}}}B_{z})}}\\ {{=-e(n\\mu_{\\mathrm{a}}^{2}+n_{\\mathrm{D}}\\mu_{\\mathrm{D}}^{2})_{\\varepsilon_{x}}B_{z}}}\\end{array} $$\n这个偏转电流引起导体两边上电荷积累，造成横向电场 $\\varepsilon_{y}$ 足以抵消上述电流。电场 $\\varepsilon_{y}$ 引起的电流为：\n$$ \\sigma\\varepsilon_{y}=(n e\\mu_{\\mathrm{n}}+n_{\\mathrm{D}}e\\mu_{\\mathrm{D}})\\varepsilon_{y} $$\n由 $\\sigma_{\\varepsilon_{y}}=j_{y},$ 有：\n$$ (n e\\mu_{\\mathrm{n}}+n_{\\mathrm{D}}e_{\\mu\\mathrm{D}})\\varepsilon_{y}=-e(n_{\\mu_{\\mathrm{n}}^{2}}+n_{\\mathrm{D}}\\mu_{\\mathrm{D}}^{2})\\varepsilon_{x}B_{z} $$\n所以：\n$$ \\begin{array}{r l}&{\\varepsilon_{s}=-\\frac{(n\\mu_{\\mathrm{n}}^{2}+n_{\\mathrm{D}}\\mu_{\\mathrm{D}}^{2})}{n\\mu_{\\mathrm{n}}+n_{\\mathrm{D}}\\mu_{\\mathrm{D}}}\\varepsilon_{x}B_{z}=-\\frac{(n\\mu_{\\mathrm{n}}^{2}+n_{\\mathrm{D}}\\mu_{\\mathrm{D}}^{2})}{n\\mu_{\\mathrm{n}}+n_{\\mathrm{D}}\\mu_{\\mathrm{D}}}\\frac{j_{x}}{\\sigma}B_{z}}\\ &{\\quad=-\\frac{(n\\mu_{\\mathrm{n}}^{2}+n_{\\mathrm{D}}\\mu_{\\mathrm{D}}^{2})}{e(n_{\\mu_{\\mathrm{n}}}+n_{\\mathrm{D}}\\mu_{\\mathrm{D}})^{2}}j_{x}B_{z}}\\ &{\\qquadR_{\\mathrm{H}}=-\\frac{(n\\mu_{\\mathrm{n}}^{2}+n_{\\mathrm{D}}\\mu_{\\mathrm{D}}^{2})}{e(n_{\\mu_{\\mathrm{n}}}+n_{\\mathrm{D}}\\mu_{\\mathrm{D}})^{2}}}\\end{array} $$\n故："
@@ -6618,7 +6618,7 @@
     "id": 2611,
     "image": "2611.jpg",
     "question": "如图所示，在低温下，当能带中载流子极少时，杂质带中载流子的导电性将表现出来。设杂质带中电子迁移率为 $\\mu_{\\mathrm{Ḋ}},$ 半导体导带中电子迁移率 $\\mu_{\\mathrm{n}},$ 可以把它们看作两种不同的载流子，由此解释低温反常霍尔效应。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 2,
     "answer": "现在来解释低温反常霍尔效应，若半导体中不存在杂质带，那么低温下 $\\begin{array}{r l r}{\\mathrm{,}}&{{}}&{-\\frac{E_{\\mathrm{D}}}{2k_{\\mathrm{B}}T},}\\end{array}$ 随着 $,T{\\rightarrow}0,n{\\rightarrow}0,$ 霍尔系数 $\\|R_{\\mathrm{H}}\\|\\rightarrow\\infty.$ 但在低温下，由于导带电子 $n{\\rightarrow}0,$ 所以半导体中重掺杂所带来的杂质带的导电性将表现出来，以至低温下霍尔效应将主要由杂质带来决定：\n$$ R_{\\mathrm{H}}\\approx-{\\frac{1}{n_{\\mathrm{D}}e}}=-{\\frac{1}{N_{\\mathrm{D}}e}} $$\n即在其低温度下，霍尔系数大小与饱和区的霍尔系数相近，说明 $\\mid R\\mid$ 随着温度下降经历了一极大值后减至一个饱和值，这就是低温下霍尔系数的反常效应。图2.21示出 $\\boldsymbol{\\mathrm n}$ 型Ge样品低温下霍尔系数与温度的关系。"
@@ -6627,7 +6627,7 @@
     "id": 2612,
     "image": "2612.jpg",
     "question": "如图所示，这是由原子排列在正方格子上而构成的一假想的二维晶体。定义倒格子点阵并解释它同布拉格反射的关系。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 2,
     "answer": "设 $a_{i}(i=1,2)$ 为正格子基矢，则由关系式\n$$\na_{i}\\cdot b_{j}={\\binom{2\\pi,\\qquad i=j}{0,\\qquad i\\neq j}}\n$$\n所确定的 $b_{i}(i=1,2)$ 为基矢的点阵，称为正格子的倒格子。\n\n在倒格子空间，布拉格反射条件为：反射波矢 $k$ 与入射波矢 $k_{0}$ 相差一个或几个倒格矢 $n G_{h},$ 即\n$$\nk-k_{0}=n G_{h}\n$$"
@@ -6636,7 +6636,7 @@
     "id": 2613,
     "image": "2613.jpg",
     "question": "如图所示，这是由原子排列在正方格子上而构成的一假想的二维晶体。叙述并解释布洛赫定理，即在点阵的势场中运动的电子具有行波波函数，该定理必须采用什么边界条件？",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 1,
     "answer": "在点阵周期势场中运动的电子波函数是布洛赫波即\n$$\n\\psi_{k}(r)=\\mathrm{e}^{\\mathrm{i}k\\cdot r}u_{k}(r)\n$$\n式中函数 $u_{k}(r)$ 具有晶格平移对称性\n$$\nu_{k}(r)=u_{k}(r+R)\n$$\n其中 $R$ 是晶格格矢。这是受晶格周期势场调制的平面波，此即布洛赫定理。布洛赫波的指数部分是平面波，描述了晶体中电子的共有化运动，而周期函数则描述了晶体中电子围绕原子核的运动，因而布洛赫波正是反映晶体中电子运动的特点。\n\n布洛赫定理必须采用玻恩-冯卡门周期性边界条件。"
@@ -6645,7 +6645,7 @@
     "id": 2614,
     "image": "2614.jpg",
     "question": "如图所示，请简明地讨论倒逆（umklapp）过程和它对晶格热导率的关系。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 1,
     "answer": "设波矢为 $q_{1},q_{2}$ 的两个声子发生碰撞而转变成波矢为 $q_{3}$ 的声子，若三声子过程的准动量守恒律是下式所给：\n $$ q_{1}+q_{2}=q_{3}+G $$\n 式中 $\\mathbf{\\nabla},\\mathbf{G}$ 为倒格矢量，这三声子碰撞过程称倒逆过程或 $U$ 过程如图4.10所示；即因 $q_{1},q_{2}$ 的数值较大 $,q_{1}+q_{2}$ 落在布里渊之外，需找到一定的 $G_{n}$ （而且是唯一的），使 $(q_{1}+q_{2}-G_{n})$ 回到布里渊区之内，这样就确定了满足上面准动量守恒式子中的 $q_{3}$ 值如图4.10所示，倒逆过程使声子的动量发生很大变化 $,q_{1}+q_{2}$ 是向“右”的，而碰撞后 $q_{3}$ 则是向“左”的，从而破坏了热流的方向.所以倒逆过程对热阻是有贡献的，给出了有限的热传导率，而不像三声子正常碰撞过程导致热传导无限大."
@@ -6654,7 +6654,7 @@
     "id": 2615,
     "image": "2615.jpg",
     "question": "如图所示，在紧束缚近似中，晶体中电子状态可以用 $s$ 态原子波函数组成的布洛赫波来表示：\n$$\n\\Psi_{k}^{s}(r)=c\\sum_{n}\\mathrm{e}^{\\mathrm{i}k\\cdot R_{n}}\\varphi_{s}(r-R_{n})\n$$\n相应晶体电子能量为\n$$\nE^{s}(k)=E_{s}+J_{0,0}^{s}+\\sum_{l}\\mathrm{e}^{\\mathrm{i}k\\cdot R_{l}}J_{0,l}^{s}\n$$\n式中 $E_{s}$ 是自由原子 $s$ 态电子能量本征值，$J$ 为交换积分 $J_{0,l}^{s}{\\leqslant}0,$ $R_{l}$ 是最近邻格矢。设面心立方晶体的晶格常数为 $2a,$ 画出面心立方晶体 $\\varDelta$ 轴上能带图，标明对称点、对称轴、波函数对称性和能量简并度符号以及能带宽度。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 4,
     "answer": "图 $1.47$ 画出面心立方晶体 $\\varDelta$ 轴上能带图。\n下面讨论 $T_{1},\\Delta_{1}$ 意义\n(a) 从上面推导 $E^{s}\\left(k\\right)$ 表示式看到，该函数是单值函数，对应一个 $k$ 值 $,$ 只有一个电子能量。\n(b) $\\varGamma$ 点相应的晶体电子波函数为\n$$\n\\Psi_{0}^{s}(r)=\\Psi_{F}^{s}(r)=C{\\sum_{n}}\\varphi_{s}(r-R_{n})\n$$\n考虑 $\\Psi_{T}^{s}(r)$ 在 $O_{h}$ 点群操作下的变换，设 $\\alpha$ 是其48个对称操作的一个，\n$$\nP(\\alpha)\\Psi_{\\Gamma}^{s}(r)=\\sum_{n}\\varphi_{s}(\\alpha^{-1}r-R_{n})\n$$\n$P$ 是对称操作下波函数变换算符 $,$ 注意到上式求和包含了所有格点，由于 $\\varphi_{s}(r-R_{n})$ 球对称性，故\n$$\n\\begin{array}{r}{\\sum_{n}\\varphi_{s}(\\alpha^{-1}r-R_{n})=\\sum_{n}\\varphi_{s}[\\alpha^{-1}(r-R_{n})]=\\sum_{n}\\varphi_{s}(r-R_{n})}\\end{array}\n$$\n所以\n$$\nP(\\alpha)\\Psi_{F}^{s}(r)=\\Psi_{F}^{s}(r)\n$$\n这表明在 $\\mathrm{O}_{h}$ 点群所有对称操作下 $,\\varPsi_{T}^{s}(r)$ 变化到自身。对照 ${{\\mathrm{O}}_{h}}$ 群的对称表，其 $T_{1}$ 表象基函数为1，即在任何 ${\\mathrm{O}}_{h}$ 群对称操作下也不变 $;T_{1}$ 表象简并度为1，而晶体电子波函数$\\Psi_{T}^{s}(r)$ 只相应一个能量本征值，因此可以用 $T_{1}$ 表示 $\\varGamma$ 点所表示的晶体电子波函数对称性及能量简并度。\n(c) $\\varDelta$ 轴上面心立方晶体电子波函数\n$$\n\\Psi_{k_{x}}^{T}(r)=\\Psi_{\\Delta}^{T}(r)=C\\sum_{n}\\mathrm{e}^{i k_{x}n_{1}\\cdot2a}\\varphi_{s}(r-R_{n})\n$$\n要提到的是，布里渊区中的对称点或对称轴上的点，存在波矢群 $\\beta,\\beta k=k$ （或 $k+G_{n}),$ 即波矢群的对称操作保持波矢 $k$ 不变：对于面心立方晶体，保持 $\\varDelta$ 轴不变的对称操作有${{\\mathrm{O}}_{h}}$ 群中的8个操作 $,1C_{1},1C_{2},2C_{4},2i C_{2}$ 和 $2i C_{2}^{\\prime},$ 组成所谓 $C_{4v}$ 群，于是\n$$\n\\begin{array}{c}{{P(\\beta)\\Psi_{\\Delta}^{T}(r)=C{\\displaystyle\\sum_{n}}_{0}^{\\mathrm{t}k_{n}n_{1}\\cdot2a}\\varphi_{s}(\\beta^{-1}r-R_{n})=C{\\displaystyle\\sum_{n}}_{0}^{\\mathrm{t}k_{n}n_{1}\\cdot2a}\\varphi_{s}\\big[\\beta^{-1}(r-R_{n})\\big]}}\\ {{=}}\\ {{{\\displaystyle\\sum_{n}}_{0}^{\\mathrm{t}k_{n}n_{1}\\cdot2a}\\varphi_{s}(r-R_{n})=\\Psi_{\\Delta}^{T}(r)}}\\end{array}\n$$\n说明波函数 $\\Psi_{\\Delta}^{I}(r)$ 在波矢群 $C_{43}$ 的8个对称操作下 $,\\Psi_{\\Delta}^{I}(r)$ 变化到自身。查 $C_{4v}$ 群的对称表，其中 $\\Delta_{1}$ 表象的基函数为1，简并度为 $^{1,}$ 因此可以用 $\\Delta_{1}$ 来表示 $\\varDelta$ 轴上点所表示晶体电子波函数的对称性及能量简并度。"
@@ -6663,7 +6663,7 @@
     "id": 2616,
     "image": "2616.jpg",
     "question": "一无磁纯净固体物质的电磁波吸收系数如图所示。物质在红外波段有一很小的吸收区，然后直到 $2.3\\mathrm{eV}$ 才吸收光。这种物质是金属还是绝缘体？为什么？",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 1,
     "answer": "这种固体是绝缘体（接近半导体，能隙 $\\Delta{\\cal E}{=}2.3\\mathrm{eV}).$"
@@ -6672,7 +6672,7 @@
     "id": 2617,
     "image": "2617.jpg",
     "question": "一无磁纯净固体物质的电磁波吸收系数如图所示。物质在红外波段有一很小的吸收区，然后直到 $2.3\\mathrm{eV}$ 才吸收光。这种物质晶体结构的原胞是否含有一个以上的原子？为什么？",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 2,
     "answer": "原胞中含有两个以上的原子，否则就不可能有光学支，也就不会有0.15eV处的吸收峰。"
@@ -6681,7 +6681,7 @@
     "id": 2618,
     "image": "2618.jpg",
     "question": "一无磁纯净固体物质的电磁波吸收系数如图所示。物质在红外波段有一很小的吸收区，然后直到 $2.3\\mathrm{eV}$ 才吸收光。概要解释产生这种吸收方式的原因。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 2,
     "answer": "这种物质在红外波段的吸收区是由于光子和晶格振动相互作用所引起的，具体说来，这种吸收主要是长光学支振动与光子的相互作用。长光学支振动，局部地来看，这种振动造成交变的电矩，如同一个振动的电偶极子，正是由于电矩和电磁场的相互作用导致了光的吸收；而在2.3eV以上的吸收则是价带电子受激跃迁到导带而产生的。"
@@ -6690,7 +6690,7 @@
     "id": 2619,
     "image": "2619.jpg",
     "question": "试画出热平衡时氢化非晶硅 $(\\mathrm{a}{-}\\mathrm{Si}:\\mathrm{H})\\mathrm{p}{-}i{-}\\mathrm{n}$ 结构太阳能电池能带图。如图所示，请结合图片分析其能带结构的特点。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 1,
     "answer": "在 $\\operatorname{p}-i-\\operatorname{n}$ 结构的电池中，由于pi结和in结形成的内建场跨越了整个本征层 $a{\\mathrm{-Si}}:{\\mathrm{H}}$，电池光注人在该层中的光生载流子完全置于该电场之中（数值模拟计算表明 $,i$ 层中电场强度可达 $2\times10^{4}\\mathrm{V/cm}$ 数量级上，而且电场强度分布几乎是一常数），一旦产生即可被收集，从而明显提高电池效率。\n\n现在来画a-Si $\\colon\\mathrm{~H~p~}{\\mathrm{-}}i-\\mathrm{n}$ 结构太阳能电池在热平衡情况下的能带图。由于 $\\mathrm{p^{+}}$ 层 $\\mathfrak{n}^{+}$ 层比本征 $\\partial^{.}\\mathrm{Si}:\\mathrm{H}$ 层薄很多，取 $x{=}0$ 点代表 $\\mathrm{p^{+}}$ 层 $,x=L$ 点代表 $\\mathrm{n^{+}}$ 层。由 $\\mathrm{p^{+}}$ 层 ${\\mathfrak{n}}^{+}$ 层和 $i$ 层 $\\partial^{.}\\mathrm{Si}:\\mathrm{H}$ 组成的热力学体系在热平衡时应有统一的费米能级 $E_{\\mathrm{F}},\\mathrm{~p~}^{+}$ 和 $\\mathrm{n^{+}-a-S i:H}$ 层分别与高电导（或金属）材料接触，这种接触呈阻挡少数载流子输运性质，其接触势垒高度分别用 $\\varphi_{b0}$ 和 $\\varphi_{b L}$ 表示。相距 $E_{8}$ 分别给出 $x{\\stackrel{}{=}}0$ 点和 $x=L$ 点的价带顶 $E_{\\mathrm{V}}.$ 如前所述，i（a-Si：H)层中电场强度是一常数，它给 $i$ 层中电子附加的静电势能随距离分布是线性的。\n\n至此画出 $\\mathrm{a}\\mathrm{-Si}:\\mathrm{H}\\mathrm{p}{-}i\\mathrm{-n}$ 结构太阳能电池能带图如图4.3所示。"
@@ -6699,7 +6699,7 @@
     "id": 2620,
     "image": "2620.jpg",
     "question": "如图所示，证明热发射电子在离开金属表面后，其垂直于金属表面的平均能量为 $k_{\\mathrm{B}}T$。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 1,
     "answer": "如图1.78，在垂直于金属表面方向（取为 $z$ 坐标）的电子，其能量 $E_{\\perp} \\geq x$ 才能热发射逸出金属表面 ($x$ 是金属电子势阱深度），故其最小动量应为 $\rho_{z0} = \\sqrt{2m x}$。在 $z$ 方向上逸出的电子的平均能量为：\n$$\n\\overline{{E_{\\perp}}} = \frac{\\displaystyle \\int E_{\\perp} \\, \\mathrm{d}v}{N}\n$$\n其中 $N$ 为单位面积单位时间蒸发的电子数目：\n$$\nN = \frac{4\\pi m (k_{\\mathrm{B}}T)^2}{h^3} \\mathrm{e}^{-\frac{W}{k_{\\mathrm{B}}T}}\n$$\n$\\mathrm{d}v$ 是在 $\boldsymbol{v}_z$ 到 $\boldsymbol{v}_z + \\mathrm{d}\boldsymbol{v}_z$ 速度区间内的电子，在单位时间内逃出金属表面的电子数目：\n$$\n\\mathrm{d}v = v_z \\, \\mathrm{d}n = v_z \\cdot 2f \\, \\mathrm{d}k = v_z \\cdot \frac{2}{h^3} f \\, \\mathrm{d}\\hat{p}_x \\, \\mathrm{d}\\hat{p}_y \\, \\mathrm{d}\\hat{p}_z = \frac{2}{h^3} \\cdot \frac{\\hat{p}_z}{m} \\cdot f \\, \\mathrm{d}\\hat{p}_x \\, \\mathrm{d}\\hat{p}_y \\, \\mathrm{d}\\hat{p}_z\n$$\n利用 $f = \\mathrm{e}^{-\frac{E - E_{\\mathrm{F}}}{k_{\\mathrm{B}}T}}$ 和 $E_{\\perp} = \frac{\\phi_z^2}{2m}$，经过一系列积分和计算，最终得到：\n$$\n\\overline{{E_{\\perp}}} = k_{\\mathrm{B}}T\n$$\n因此，热发射电子在离开金属表面后，其垂直于金属表面的平均动能为 $k_{\\mathrm{B}}T$。"
@@ -6708,7 +6708,7 @@
     "id": 2621,
     "image": "2621.jpg",
     "question": "如图所示，证明热发射电子在离开金属表面后，其平行于金属表面的平均能量为 $k_{\\mathrm{B}}T$。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 2,
     "answer": "平行于金属表面的平均能量为：\n$$\n\\overline{{E_{//}}}= \frac{\\int E_{//} \\, \\mathrm{d}v}{N}\n$$\n其中\n$$\nE_{//} = \frac{\\phi_x^2 + \\phi_y^2}{2m}, \\quad N = \frac{4\\pi m (k_{\\mathrm{B}}T)^2}{h^3} \\mathrm{e}^{-\frac{W}{k_{\\mathrm{B}}T}}\n$$\n通过类似的积分计算方法，得到：\n$$\n\\int E_{//} \\, \\mathrm{d}v = \frac{4\\pi m (k_{\\mathrm{B}}T)^3}{h^3} \\mathrm{e}^{-\frac{W}{k_{\\mathrm{B}}T}}\n$$\n因此：\n$$\n\\overline{{E_{//}}}= \frac{\\int E_{//} \\, \\mathrm{d}v}{N} = k_{\\mathrm{B}}T\n$$\n所以，热发射电子平行于金属表面的平均动能为 $k_{\\mathrm{B}}T$。"
@@ -6717,7 +6717,7 @@
     "id": 2622,
     "image": "2622.jpg",
     "question": "假设一碱金属卤化物，$\\varepsilon(0)=5.9,\\varepsilon(\\infty)=2.25,$ 在 $\\lambda_{0}=30.6\\mu\\mathrm{m}$ 处反射率 $R=0$，且 $\\varepsilon(\\omega)$ 为实数。画出反射率 $R$ 与 $\\omega$ 的关系曲线。<image>",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 5,
     "answer": "当光正入射到离子晶体上，且 $\\varepsilon(\\omega)$ 为实数时，$\\varepsilon(\\omega) = n^2$，反射率为：\n$$\nR = \\frac{(n-1)^2}{(n+1)^2} = \\frac{\\big(\\sqrt{\\varepsilon(\\omega)}-1\\big)^2}{\\big(\\sqrt{\\varepsilon(\\omega)}+1\\big)^2}\n$$\n在以下几种情况下计算反射率：\n\n1. 当 $\\omega \\to 0$ 时，$\\varepsilon(\\omega) = \\varepsilon(0) = 5.9$，反射率为：\n$$\nR = \\frac{\\big(\\sqrt{\\varepsilon(0)}-1\\big)^2}{\\big(\\sqrt{\\varepsilon(0)}+1\\big)^2} = \\frac{\\big(\\sqrt{5.9}-1\\big)^2}{\\big(\\sqrt{5.9}+1\\big)^2} = 0.17\n$$\n\n2. 当 $\\omega \\to \\infty$ 时，$\\varepsilon(\\omega) \\to \\varepsilon(\\infty) = 2.25$，反射率为：\n$$\nR = \\frac{\\big(\\sqrt{\\varepsilon(\\infty)}-1\\big)^2}{\\big(\\sqrt{\\varepsilon(\\infty)}+1\\big)^2} = \\frac{\\big(\\sqrt{2.25}-1\\big)^2}{\\big(\\sqrt{2.25}+1\\big)^2} = 0.04\n$$\n\n3. 当 $\\omega = \\omega_{\\mathrm{L}} = 5.03 \\times 10^{13} \\, \\mathrm{s}^{-1}$ 时，$\\varepsilon(\\omega) = 0$，反射率为：\n$$\nR = 1\n$$\n\n4. 当 $\\omega_{\\mathrm{T}} < \\omega < \\omega_{\\mathrm{L}}$ 时，即 $3.11 \\times 10^{13} \\, \\mathrm{s}^{-1} < \\omega < 5.03 \\times 10^{13} \\, \\mathrm{s}^{-1}$，$\\varepsilon(\\omega) < 0$，折射率 $n$ 为虚数，反射率为：\n$$\nR = 1\n$$\n\n根据以上分析，可以绘制 $R-\\omega$ 关系曲线如图所示。"
@@ -6726,7 +6726,7 @@
     "id": 2623,
     "image": "2623.jpg",
     "question": "如何划分非简并半导体中的三个温区，并解释每个温区的特性？<image>",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 1,
     "answer": "把上面计算两个磷杂质浓度下硅中电子热激发产生载流子的两个转变温度 $T_{1},T_{2}$ 列于表2.5中。\n<html><body><table><tr><td>浓度/cm-3</td><td>T/K</td><td>T2/K</td></tr><tr><td>1X1017</td><td>281</td><td>761</td></tr><tr><td>1X1014</td><td>77</td><td>461</td></tr></table></body></html>\n我们看到 $,1\\times10^{14}-1\\times10^{17}\\mathrm{cm}^{-3}$ 磷掺杂浓度下硅中饱和电离温区有几百K宽，例如$N_{\\mathrm{D}}{=}1\\times10^{17}\\mathrm{cm}^{-3}$ 时 $,T_{2}-T_{1}=761-281=480(\\mathrm{K}),$ 如图2.15所示 $^{,\\Pi}$ 型硅电子浓度 $n$ 随温度变化示意图中平坦的一段，而它的两侧则分别是本征激发区和杂质电离区，于是有了明显三个温区的划分.而如上述，每一温区载流子产生近似地只相应一种机制，对应着各自载流子浓度计算公式，这就是非简并掺杂半导体中载流子浓度的分温区计算方法.\n（4）从表2.5还可以看到，在 $1\\times10^{14}{\\sim}1\\times$ $10^{17}\\mathrm{cm}^{-3}$ 磷掺杂浓度下，室温 $T=300\\mathrm{K}$ 均落在饱和电离温区上，这表示室温附近相当宽的温度范围里都能应用 $n{\\approx}N_{\\mathrm{D}}$ 公式来得到硅中电子浓度，因而在半导体物理问题和半导体器件分析中就能经常地使用饱和电离假设来计算其载流子浓度了，\n（5）从表2.5中看到，随着掺杂浓度的增大，两个转变温度 $T_{1}$ 和 $T_{2}$ 跟着升高，图2.15中的曲线向高温移动.因此，例如 $N_{\\mathrm{D}}{=}1\\times$ $10^{17}\\mathrm{cm}^{-3}$ 计算得到的本征激发开始的温度是281K.那么，小于 $1\\times10^{17}\\mathrm{cm}^{-3}$ 掺杂浓度半导体的本征激发温度都将小于281K，故题2.18算出的是在300K时，以杂质电离产生载流子为主的饱和区相应的最大的掺杂浓度.\n（6）非简并半导体载流子浓度分温区计算\n计算问题的具体半导体材料已知，计算问题中的温度所相应的本征激发载流子 $n_{i}$ 便按公式求出来了.这时，把具体掺杂浓度例如施主杂质浓度 $N_{\\mathrm{D}}$ 与算出的本征载流子浓度$n_{i}$ 相比较，来确定计算问题中的温度落在哪一个温区，从而方便的求得 $E_{\\mathrm{{F}}}$ 位置和 $n,p$ 数值。\n(a) $n_{i}$ 比 $N_{\\mathrm{D}}$ 大一个数量级以上，说明温度落在本征激发的温区，于是使用以下公式：\n$$\nn=p=n_{i}\n$$\n$$\nE_{\\mathrm{{F}}}={\\frac{1}{2}}(E_{\\mathrm{{C}}}+E_{\\mathrm{{V}}})+{\\frac{k_{\\mathrm{{B}}}T}{2}}{\\ln{\\frac{N_{\\mathrm{{V}}}}{N_{\\mathrm{{C}}}}}}\n$$\n(b) $n_{i}$ 与 $N_{\\mathrm{D}}$ 在同一数量级上，计算温度落在本征一全电离过渡区，有联立方程：\n$$\n\\left\\{{\\begin{array}{l}{n\\cdot p=n_{i}^{2}}\\ {p+N_{\\mathrm{D}}=n}\\end{array}}\\right.\n$$\n则：\n$$\n\\begin{array}{l}{{n=\\frac{N_{\\mathrm{D}}+(N_{\\mathrm{D}}^{2}+4n_{i}^{2})^{\\frac{1}{2}}}{2}}}\\ {{}}\\ {{\\phi=\\frac{n_{i}^{2}}{n}}}\\end{array}\n$$\n和：\n$$\nE_{\\mathrm{{F}}}=E_{i}+k_{\\mathrm{{B}}}T{\\mathrm{ln}}\\Big[{\\frac{N_{\\mathrm{{D}}}+(N_{\\mathrm{{D}}}^{2}+4n_{i}^{2})^{\\frac{1}{2}}}{2n_{i}}}\\Big]\n$$\n(C) $n_{i}$ 比 $N_{\\mathrm{D}}$ 小一个数量级或更小，计算温度落在杂质激发区，本征激发可忽略，使：\n用以下公式：\n式中 $,A{=}\\frac{N_{\\mathrm{C}}}{N_{\\mathrm{D}}}\\mathrm{e}^{-\\frac{E_{1}}{k_{\\mathrm{B}}T}},x{=}\\frac{1}{4}\\big(\\sqrt{1{+}\\frac{8}{A}}{-}1\\big).$\n$\\textcircled{1}$ 全电离公式：\n有公式：\n$$\n\\frac{8}{A}=\\frac{8N_{\\mathrm{D}}}{N_{\\mathrm{C}}}\\mathrm{e}^{\\frac{E_{\\mathrm{I}}}{k_{\\mathrm{B}}T}}\\ll1,\\mathbb{E}\n$$\n$$\n\\begin{array}{r}{n=N_{\\mathrm{D}}}\\ {\\phi=\\frac{n_{i}^{2}}{N_{\\mathrm{D}}}}\\end{array}\n$$\n和：\n$\\textcircled{2}$ 弱电离公式：\n有公式：\n$$\n\\frac{8}{A}=\\frac{8N_{\\mathrm{D}}}{N_{\\mathrm{C}}}\\mathrm{e}^{\\frac{E_{\\mathrm{f}}}{k_{\\mathrm{B}}T}}\\gg1,\\mathbb{E}\\mathbb{I}A\\ll1\n$$\n$$\nn=\\left({\\frac{N_{\\mathrm{{c}}}N_{\\mathrm{{D}}}}{2}}\\right)^{\\frac{1}{2}}\\mathrm{{e}}^{-{\\frac{E_{\\mathrm{{I}}}}{2k_{\\mathrm{{B}}}T}}}\n$$\n$$\nE_{\\mathrm{F}}=\\frac{E_{\\mathrm{C}}+E_{\\mathrm{D}}}{2}+\\frac{k_{\\mathrm{B}}T}{2}\\mathrm{ln}\\frac{N_{\\mathrm{D}}}{2N_{\\mathrm{C}}}\n$$\n参阅林鸿生，非简并半导体载流子浓度的分温区计算，云南大学学报（固体物理专辑），2002，24，(5A)，1"
@@ -6735,7 +6735,7 @@
     "id": 2624,
     "image": "2624.jpg",
     "question": "如图所示，低密度极限下 $\\left(\frac{\\omega_{\\mathrm{p}}}{\\omega_{0}}{\\ll}1,\frac{\\omega_{\\mathrm{p}}}{\\gamma}{\\ll}1\right),n(\\omega)$ 的实部和虚部如何表示？并解释曲线特征。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 4,
     "answer": "令 $n^{*}=n-\\mathrm{i}\\eta,$ 有\n $$ n^{*2}=(n-\\mathrm{i}\\eta)^{2}=1+\frac{\\omega_{\\mathrm{p}}^{2}}{\\omega_{\\mathrm{p}}^{2}-\\omega^{2}+\\mathrm{i}\\gamma\\omega} $$\n 不难得到\n $$ n^{2}-\\eta^{2}=1+{\frac{\\omega_{\\mathrm{p}}^{2}(\\omega_{0}^{2}-\\omega^{2})}{(\\omega_{0}^{2}-\\omega^{2})^{2}+\\gamma^{2}\\omega^{2}}}=\\mathrm{R}(\\omega) $$\n $$ 2n\\eta={\frac{\\omega_{\\mathrm{p}}^{2}\\gamma_{\\omega}}{(\\omega_{0}^{2}-\\omega^{2})^{2}+\\gamma_{\\omega}^{2}\\omega^{2}}}=\\mathrm{I}(\\omega) $$\n 在低密度极限下 $,n^{\\ast}~(\\omega)$ 的实部和虚部曲线如图3.2所示。当 $\\omega=\\omega_{0}$ 时 $,2n\\eta$ 取极大值，称为共振吸收。"
@@ -6744,7 +6744,7 @@
     "id": 2625,
     "image": "2625.jpg",
     "question": "多数超导体的另一典型特征是单电子能级上存在着以费米能级为中心的能隙 $\\Delta,$ 下列实验均可确定 $\\Delta$ 的存在和大小，请讨论其中任意两个实验。<image>\n(a) $T \\ll T_{\\mathrm{c}}$ 时的比热测量；\n(b) 约瑟夫森结的单电子隧道效应；\n(c) 薄膜中的微波 $(\\hbar\\omega \\ll \\Delta)$ 吸收；\n(d) 块状样品中的红外 $(\\hbar\\omega \\leq \\Delta)$ 吸收；\n(e) $T \\ll T_{\\mathrm{C}}$ 时的声衰减。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 2,
     "answer": "**(a) $T \\ll T_{\\mathrm{c}}$ 时的比热测量**\n在 $T \\ll T_{\\mathrm{c}}$ 情况下，系统比热为\n$$\nc_{\\mathrm{s}} \\approx \\frac{A}{T}\\mathrm{exp}\\big(-\\frac{\\Delta}{k_{\\mathrm{B}}T}\\big)\n$$\n式中 $,A$ 为常数。在 $T \\approx T_{\\mathrm{c}}$ 时对超导态比热的测量，得到\n$$\nc_{s} = a\\exp\\Bigl(-\\frac{b}{t}\\Bigr)\n$$\n式中，$t = T/T_{\\mathrm{c}}, b$ 为实验常数。比较以上两式可得\n$$\n\\frac{b}{t} = \\frac{\\Delta}{k_{\\mathrm{B}}T}\n$$\n即\n$$\n\\Delta = \\frac{b}{t} \\cdot k_{\\mathrm{B}}T = b k_{\\mathrm{B}}T_{\\mathrm{C}}\n$$\n代入实验常数可得\n$$\n\\Delta \\approx 1.52k_{\\mathrm{B}}T_{\\mathrm{C}}\n$$\n\n**(b) $T \\ll T_{\\mathrm{c}}$ 时的声衰减**\n由于超声波在超导态和正常态的衰减不同，理论上得到\n$$\n\\frac{\\alpha_{\\mathrm{s}}}{\\alpha_{\\mathrm{N}}} = \\frac{2}{\\exp\\bigl(\\frac{\\Delta}{k_{\\mathrm{B}}T}\\bigr)+1}\n$$\n式中，$\\alpha_{\\mathrm{s}}, \\alpha_{\\mathrm{N}}$ 分别表示超导态和正常态的衰减。通过实验测量声衰减比值 $\\frac{\\alpha_{\\mathrm{s}}}{\\alpha_{\\mathrm{N}}},$ 可由上式确定 $\\Delta.$"
@@ -6753,7 +6753,7 @@
     "id": 2626,
     "image": "2626.jpg",
     "question": "若 $\\mathrm{\\Delta X}$ 射线沿简立方晶胞的 $O z$ 轴负方向入射，求证：当\n $$\n \\frac{\\lambda}{a} = \\frac{2l}{k^2 + l^2}, \\quad \\cos\\beta_2 = \\frac{l^2 - k^2}{k^2 + l^2}\n $$\n 时，一级衍射光线在 $y z$ 平面上。式中 $\\beta_2$ 是衍射光线和 $O z$ 方向的夹角。<image>",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 3,
     "answer": "解：设 $O x y z$ 直角坐标系的轴 $O x, O y, O z$ 分别代表简立方晶胞的三个晶轴 $a, b, c$，$i, j, k$ 分别是这三个方向的单位矢量，则简立方的正格子为\n $$\n a = a i, \\quad b = a j, \\quad c = a k\n $$\n 式中 $a$ 是简立方晶体的晶格常数，相应的倒格子基矢为\n $$\n a^* = \\frac{2\\pi}{a}i, \\quad b^* = \\frac{2\\pi}{a}j, \\quad c^* = \\frac{2\\pi}{a}k\n $$\n 与晶面族 $(h, k, l)$ 正交的倒格矢为\n $$\n G_{hkl} = h a^* + k b^* + l c^* = \\frac{2\\pi}{a}h i + \\frac{2\\pi}{a}k j + \\frac{2\\pi}{a}l k\n $$\n 图1.17 示出X射线在倒格子空间的布拉格反射。$q_0$ 是入射波波矢，$q$ 是反射波波矢，它们构成菱形的两边，倒格矢 $G_{hkl}$ 为菱形的一个对角线，反射晶面则平行于另一对角线。\n\n从图1.17 上各矢量之间的关系：\n $$\n |G_{hkl}| = 2 |q| \\cos\\frac{\\beta_2}{2} = 2 \\frac{2\\pi}{\\lambda} \\cos\\frac{\\beta_2}{2}\n $$\n 把倒格矢量 $G_{hkl}$ 表达式代入上式：\n $$\n 2 \\frac{2\\pi}{\\lambda} \\cos\\frac{\\beta_2}{2} = \\frac{2\\pi}{a} (h^2 + k^2 + l^2)^{\\frac{1}{2}}\n $$\n 即\n $$\n 2 \\cos^2 \\frac{\\beta_2}{2} = \\frac{\\lambda^2}{2a^2} (h^2 + k^2 + l^2)\n $$\n $$\n 1 + \\cos\\beta_2 = \\frac{1}{2} \\left(\\frac{\\lambda}{a}\\right)^2 (h^2 + k^2 + l^2)\n $$\n 利用题设条件，得\n $$\n 1 + \\frac{l^2 - k^2}{k^2 + l^2} = \\frac{1}{2} \\left(\\frac{2l}{k^2 + l^2}\\right)^2 (h^2 + k^2 + l^2)\n $$\n 化简上式，得\n $$\n k^2 + l^2 = h^2 + k^2 + l^2\n $$\n 等式成立要求\n $$\n h = 0\n $$\n 由 $\\mathrm{X}$ 射线衍射理论，倒格子空间衍射方程为\n $$\n q - q_0 = G_{hkl}\n $$\n 代入 $h = 0$，式中倒格矢量为\n $$\n G_{hkl} = h a^* + k b^* + l c^* = k b^* + l c^* = \\frac{2\\pi}{a}k j + \\frac{2\\pi}{a}l k\n $$\n 则衍射波矢 $q$ 为\n $$\n q = q_0 + G_{hkl} = \\frac{2\\pi}{\\lambda}k + \\frac{2\\pi}{a}k j + \\frac{2\\pi}{a}l k = \\frac{2\\pi}{a}k j + 2\\pi \\left(\\frac{1}{\\lambda} + \\frac{l}{a}\\right)k\n $$\n 波矢 $q$ 在 $y z$ 平面上，即衍射线在 $y z$ 平面上。"
@@ -6762,7 +6762,7 @@
     "id": 2627,
     "image": "2627.jpg",
     "question": "如图所示，在价带顶附近波矢为 $k$ 的一个态中，电子能量由下式给出：\n $$ E = -10^{-37} k^2 \\, (\\mathrm{J}) $$\n 若把一个电子从 $k_1 = 1 \\times 10^9 \\, \\mathrm{m}^{-1}$ 态上除去，而所有其他态均被电子占据。试计算空穴的能量（以价带顶为参考点），并在 $E_h - k_h$ 能带图上示出该空穴。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 1,
     "answer": "$k = 0$ 是价带顶，其电子能量等于0，空穴能量亦为0。$k_h = -1 \\times 10^9 \\, \\mathrm{m}^{-1}$ 处空穴能量为 $E_h(k_h)$，等于电子在该态上能量的负值：\n $$ E_h(k_h) = -E(k_i) = \\frac{1 \\times 10^{-19}}{1.602 \\times 10^{-19}} = 0.62 \\, (\\mathrm{eV}) $$\n 若价带中有相当部分电子被激发走，则可用空穴带来描述这些空的电子态。现在就在图2.7，$E_h \\sim k_h$ 能带图上示出 $k_h = 1 \\times 10^{-9} \\, \\mathrm{m}^{-1}$ 空穴。"
@@ -6771,7 +6771,7 @@
     "id": 2628,
     "image": "2628.jpg",
     "question": "如图所示，电子周期场的势能函数为：\n $$ V(x)=\\Biggl\\{\frac{1}{2}m\\omega^{2}\bigl[b^{2}-(x-n a)^{2}\bigr],\\qquad n a-b\\leqslant x\\leqslant n a+b \\ {0,\\qquad(n-1)a+b\\leqslant x\\leqslant n a-b}\\end{array} $$\n 其中 $,a=4b,\\omega$ 为常数。试画出此势能曲线，并求其平均值。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 5,
     "answer": "为了计算势能的平均值，可以利用势能的周期性，只要在一个周期（即原胞)内对势能做平均，作为一个周期，可取一 $2b\\leqslant x\\leqslant2b,$ 因此\n $$ {\begin{array}{l}{{\\displaystyle{V_{0}={\frac{1}{L}}\\int V(x)\\mathrm{d}x={\frac{1}{4b}}\\int V(x)\\mathrm{d}x={\frac{1}{4b}}\\int{\frac{1}{2}}m\\omega^{2}[b^{2}-x^{2}]\\mathrm{d}x}}}\\ {{\\displaystyle{={\frac{m\\omega^{2}}{8b}}\\Big[}b^{2}x-{\frac{1}{3}}x^{3}{\\Big]\bigg|}_{-b}^{b}={\frac{m\\omega^{2}}{6}}b^{2}}}\\end{array}} $$\n 式中 $L$ 是原胞长度。"
@@ -6780,7 +6780,7 @@
     "id": 2629,
     "image": "2629.jpg",
     "question": "如图所示，电子周期场的势能函数为：\n $$ V(x)=\\Biggl\\{\frac{1}{2}m\\omega^{2}\bigl[b^{2}-(x-n a)^{2}\bigr],\\qquad n a-b\\leqslant x\\leqslant n a+b \\ {0,\\qquad(n-1)a+b\\leqslant x\\leqslant n a-b}\\end{array} $$\n 其中 $,a=4b,\\omega$ 为常数。如果每个原胞中含有4个电子，该晶体是金属还是非金属？",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 4,
     "answer": "一条能带能容纳 $(2\times N)$ 个电子 $(N$ 为晶体原胞数目），现在晶体中共有 $4\times N=$ $4N$ 个电子，恰好填满两条最低能带，而第二条与第三条能带之间存在能隙，其禁带宽度$2|V_{2}|={\frac{m\\omega^{2}b^{2}}{\\pi^{2}}}\neq0,$ 所以在绝对零度下，第一条与第二条是满带，第三条是空带，空带满带均不导电，此晶体为非金属。"
@@ -6789,7 +6789,7 @@
     "id": 2630,
     "image": "2630.jpg",
     "question": "如图所示，电子周期场的势能函数为：\n $$ V(x)=\\Biggl\\{\frac{1}{2}m\\omega^{2}\bigl[b^{2}-(x-n a)^{2}\bigr],\\qquad n a-b\\leqslant x\\leqslant n a+b \\ {0,\\qquad(n-1)a+b\\leqslant x\\leqslant n a-b}\\end{array} $$\n 其中 $,a=4b,\\omega$ 为常数。求出价带顶及导带底处的电子平均速度。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 3,
     "answer": "导带底与价带顶均位于 $k=0,$ 故其平均速度\n $$ \\upsilon_{\\mathrm{c}}(k=0)=\frac{1}{\\hbar}\frac{\\mathrm{d}E_{\\mathrm{c}}(k)}{\\mathrm{d}k}=0 $$\n $$ \\upsilon_{\\mathrm{c}}(k=0)=\frac{1}{\\hbar}\frac{\\mathrm{d}E_{\\mathrm{v}}(k)}{\\mathrm{d}k}=0 $$"
@@ -6798,7 +6798,7 @@
     "id": 2631,
     "image": "2631.jpg",
     "question": "图3.10<image>显示了从MnO晶体散射得到的中子衍射数据，MnO具有和NaCl相同的结构。解释为什么NaCl结构的晶体在（100）和（110）方向上没有布拉格峰（对中子或X射线）。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 2,
     "answer": "MnO与NaCl具有相同的晶体结构，即都是面心立方结构。题解1.20推导了其衍射强度表达式：\n $$\n I_{hkl} = f_{\\mathrm{Na}^+}^2 \\cdot \\left[ 1 + \\cos n\\pi(h+k) + \\cos n\\pi(h+l) + \\cos n\\pi(k+l) \\right]\n $$\n 分别代入 $h=1, k=0, l=0$ 和 $h=1, k=1, l=0$，可得 $I_{hkl} = 0$。因此，NaCl结构晶体在（100）和（110）方向上没有布拉格峰。"
@@ -6807,7 +6807,7 @@
     "id": 2632,
     "image": "2632.jpg",
     "question": "两种不同材料的磁化率 $\\chi$ 与温度的关系画于图3.11<image>。对每个图，简要描述材料在低温范围内的磁本质，并指出哪个图属于MnO。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 1,
     "answer": "- 图3.11（a）表示铁磁体。在 $T < T_c$（居里温度）时，存在有序的铁磁相，自旋平行排列。\n- 图3.11（b）表示反铁磁体。在 $T < T_N$（尼尔温度）时，自旋反平行排列。\n\n根据MnO在低温下的磁性质，可知图3.11（b）描述了MnO的磁化率 $\\chi$ 与温度 $T$ 的关系。"
@@ -6816,7 +6816,7 @@
     "id": 2633,
     "image": "2633.jpg",
     "question": "对原子间距为 $a$ 的由同种原子构成的二维密排结构，画出第一和第二布里渊区。<image>图1.49",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 4,
     "answer": "二维正三角形结构是二维密排结构，一个原子附近有6个最近邻原子。正格子原胞基矢为：\n $$ a_{1} = a i, \\quad a_{2} = \\frac{a}{2}i + \\frac{\\sqrt{3}}{2}a j $$ \n 倒格矢 $b_1, b_2$ 满足正交关系：\n $$ a_i \\cdot b_j = \\begin{cases} 2\\pi, & i = j \\\\ 0, & i \\neq j \\end{cases} $$ \n 通过计算，得到倒格矢为：\n $$ b_1 = \\frac{4\\pi}{\\sqrt{3}a} \\left( \\frac{\\sqrt{3}}{2}i - \\frac{1}{2}j \\right), \\quad b_2 = \\frac{4\\pi}{\\sqrt{3}a} j $$ \n 选取一倒格点为原点，其最近邻倒格点有6个，分别是 $\\pm b_1, \\pm b_2, \\pm (b_1 + b_2)$。作这6个倒格矢的中垂线围成第一和第二布里渊区。第一布里渊区是围绕原点的正六边形，第二布里渊区则是正六边形外的6块三角形，如图1.49所示。"
@@ -6825,7 +6825,7 @@
     "id": 2634,
     "image": "2634.jpg",
     "question": "考虑一个二维正方晶体，相应材料的晶体势场为\n$$\nV(x, y) = -2V_0 \\left(\\cos \\frac{2\\pi}{a}x + \\cos \\frac{2\\pi}{a}y \\right)\n$$\n其中，$V_0$ 为常数，$a$ 为晶格常数，近似求解第一布里渊区边界面中点的能隙。<image>",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 5,
     "answer": "$$\nV(x, y) = -2V_0 \\left(\\cos \\frac{2\\pi}{a}x + \\cos \\frac{2\\pi}{a}y \\right)\n$$\n$$\n= -V_0 \\left( \\mathrm{e}^{\\mathrm{i}\\frac{2\\pi x}{a}} + \\mathrm{e}^{-\\mathrm{i}\\frac{2\\pi x}{a}} + \\mathrm{e}^{\\mathrm{i}\\frac{2\\pi y}{a}} + \\mathrm{e}^{-\\mathrm{i}\\frac{2\\pi y}{a}} \\right)\n$$\n区边界中点对应于倒格矢 $G = \\frac{2\\pi}{a} b_1$，可见 $V(x, y)$ 中相应的傅里叶系数为 $-V_0$，所以能隙为\n$$\n\\Delta_X = 2 |V_X| = 2 |V_0|\n$$"
@@ -6834,7 +6834,7 @@
     "id": 2635,
     "image": "2635.jpg",
     "question": "图2.2<image>为一维固体中电子的能谱。若 $n$ 和 $\\phi$ 分别为电子和空穴的数密度，则 $\\phi/n$ 为何？",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 3,
     "answer": "$\\phi/n = 1$"
@@ -6843,7 +6843,7 @@
     "id": 2636,
     "image": "2636.jpg",
     "question": "图2.2<image>为一维固体中电子的能谱。此固体每个原胞有偶数个还是奇数个电子？说明理由。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 1,
     "answer": "由图2.2可知，当不出现能带交叠时，电子刚好填满一个带，可见组成固体的元素是二价的，故每个原胞含偶数个电子。"
@@ -6852,7 +6852,7 @@
     "id": 2637,
     "image": "2637.jpg",
     "question": "图2.2<image>为一维固体中电子的能谱。电子与空穴的有效质量，哪一个大？根据图示各量，求出有效质量的近似表示式。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 2,
     "answer": "由图2.2可知 $,(k_{1},k_{2})$ 间对应传导电子 $,(k_{3},k_{4})$ 间对应空穴，由于能谱曲线在 $(k_{3},k_{4})$ 间比 $(k_{1},k_{2})$ 间来的平缓，由有效质量表达式\n $$ m^{*}=\\left|\\left(\frac{\\partial^{2}E}{\\hbar^{2}\\partial^{2}k}\right)^{-1}\right| $$\n 知空穴有效质量 $m_{\\mathrm{h}}^{*}$ 大于电子有效质量 $m_{\\mathrm{e}}^{*}$。\n 近似取导带底在 $k_2$，而价带顶在 $k_3$，且 $(k_1, k_2)$、$(k_3, k_4)$ 间曲线近似为抛物线，因此导带电子有单一有效质量 $m_{\\mathrm{e}}^{*}$，价带顶空穴有单一有效质量 $m_{\\mathrm{h}}^{*}$，则\n $$ E_{\\mathrm{F}} - E_{\\mathrm{c}} = \frac{\\hbar^2}{2m_{\\mathrm{e}}^{*}} \\left(k_2 - \frac{k_1 + k_2}{2}\right)^2 = \frac{\\hbar^2}{m_{\\mathrm{e}}^{*}} \frac{(k_2 - k_1)^2}{8} $$\n 所以电子有效质量 $m_{\\mathrm{e}}^{*}$ 为\n $$ m_{\\mathrm{e}}^{*} = \frac{\\hbar^2 (k_2 - k_1)^2}{8(E_{\\mathrm{F}} - E_{\\mathrm{c}})} $$\n 同理，空穴有效质量 $m_{\\mathrm{h}}^{*}$ 为\n $$ E_{\\mathrm{V}} - E_{\\mathrm{F}} = \frac{\\hbar^2}{2(-m_{\\mathrm{h}}^{*})} \\left(k_4 - \frac{k_3 + k_4}{2}\right)^2 $$\n $$ m_{\\mathrm{h}}^{*} = \frac{\\hbar^2 (k_4 - k_3)^2}{8(E_{\\mathrm{V}} - E_{\\mathrm{F}})} $$\n 由于 $|k_2 - k_1| < |k_4 - k_3|$ 且 $E_{\\mathrm{F}} - E_{\\mathrm{C}} > E_{\\mathrm{V}} - E_{\\mathrm{F}} > 0$，所以 $m_{\\mathrm{e}}^{*} < m_{\\mathrm{h}}^{*}$ 成立。"
@@ -6861,7 +6861,7 @@
     "id": 2638,
     "image": "2638.jpg",
     "question": "一理想二维晶体由质量为 $m$ 的同种原子组成，各原子在晶格中的平衡位置为 $\boldsymbol{R} = (r a, s a)$，这里 $r, s = 1, 2, 3, \\cdots, N$。原子偏离平衡位置的位移由 $(x_{r s}, y_{r s})$ 表示，即\n$$\n\boldsymbol{R}_{r s} = (r a + x_{r s}, s a + y_{r s})\n$$\n在简谐近似下，势能表示为\n$$\nV = \\sum_{r s} \\Big\\{ k_1 \big[ (x_{(r+1)s} - x_{r s})^2 + (y_{r(s+1)} - y_{r s})^2 \big] + k_2 \big[ (x_{r(s+1)} - x_{r s})^2 + (y_{(r+1)s} - y_{r s})^2 \big] \\Big\\}\n$$\n在 $k_2 = 0.1 k_1$ 情况下：对于 $q = (\\xi, 0), 0 \\leq \\xi \\leq \\pi/a$，画出 $\\omega_{q\\lambda}$ 作为 $q$ 的函数关系。<image>",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 4,
     "answer": "由题设 $q_x = \\xi, q_y = 0$，则\n$$\n\begin{aligned}\n\\omega_{q_1} &= \\omega_0 \\left| \\sin \\left( \frac{\\hat{\\xi} a}{2} \right) \right|, \\\\\n\\omega_{q_2} &= \\omega_0 \\sqrt{0.1} \\left| \\sin \\left( \frac{\\hat{\\xi} a}{2} \right) \right| = 0.32 \\omega_0 \\left| \\sin \\left( \frac{\\hat{\\xi} a}{2} \right) \right|.\n\\end{aligned}\n$$\n$\\xi$ 取 0 到 $\\pi/a$，画出 $\\omega_{q\\lambda} - \\xi$ 函数图如图 1.31 所示。"
@@ -6870,7 +6870,7 @@
     "id": 2639,
     "image": "2639.jpg",
     "question": "如图所示，对于一个由原子排列在正方格子上构成的二维晶体，有三种可能的基矢选取方法。说明这三种选取的都是二维布拉维格子的固体物理学原胞。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 1,
     "answer": "从图1.7看出，这三种选取的基矢所对应的原胞的4个格点分别只有1/4原子是属于该原胞的，一个原胞都只有一个原子，还可以证明这三种原胞的体积大小也都一样，所以它们都是二维布拉维格子的固体物理学原胞，它们的基矢分别表示如下：\n 第一种基天选择\n 第二种基矢选择\n $$ \begin{array}{l}{{a_{1}^{\\prime}=a_{1}}}\\ {{a_{2}^{\\prime}=a_{1}^{\\prime}+a_{2}=a_{1}+a_{2}}}\\end{array} $$\n 第三种基矢选择\n $$ \begin{array}{l}{{a_{1}^{\\prime\\prime}=a_{1}}}\\ {{a_{2}^{\\prime\\prime}=2a_{1}^{\\prime\\prime}+a_{2}=2a_{1}+a_{2}}}\\end{array} $$\n 显然表示二维布拉维格子固体物理学原胞的三组基矢 $a_{1},a_{2};a_{1}^{\\prime},a_{2}^{\\prime};a_{1}^{\\prime\\prime},a_{2}^{\\prime\\prime}$ 可互相线性表示（系数全是整数），不是独立的.选取 $a_{3}=a_{3}^{\\prime}=a_{3}^{\\prime\\prime}=k,k$ 是垂直于二维格子平面的单位矢量，则它们的体积分别是\n $$ \begin{array}{c}{{\\Omega_{1}=a_{1}\bullet(a_{2}\times k)}}\\ {{\\Omega_{2}=a_{1}^{\\prime}\bullet(a_{2}^{\\prime}\times k)=a_{1}\bullet\\left[(a_{1}+a_{2})\times k\right]}}\\ {{=a_{1}\bullet\\left[(a_{1}\times k)+(a_{2}\times k)\right]=a_{1}\bullet(a_{2}\times k)}}\\end{array} $$\n 同样\n $$ \\Omega_{3}=a_{1}^{\\prime\\prime}\\cdot(a_{2}^{\\prime\\prime}\times k)=a_{1}\\cdot(a_{2}\times k) $$\n 所以\n $$ \\Omega_{1}=\\Omega_{2}=\\Omega_{3}=\\Omega $$\n 三种原胞的体积相等，得证。"
@@ -6879,7 +6879,7 @@
     "id": 2640,
     "image": "2640.jpg",
     "question": "如图所示，对于一个由原子排列在正方格子上构成的二维晶体，有三种可能的基矢选取方法。这三种倒格子基矢所对应的倒格子是否唯一的，何故？",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 1,
     "answer": "这三组倒格子基矢不是互相独立而是可以相互线性转换的，反映了它们都只是表示同一倒格子点阵.因此，倒格子空间平移对称性使得，在以 $b_{1}^{(l)},b_{2}^{(l)},b_{3}^{(l)}$ 为基的倒格子空间中的一个倒格矢量 $G_{h}^{(l)},$ 也是基矢 $b_{1}^{(l)},b_{2}^{(l)},b_{3}^{(l)}$ 线性转换而来的基矢 $b_{1}^{(m)},b_{2}^{(m)},b_{3}^{(m)}$ 为基的倒格子空间中的一个倒格矢量，这表明虽然一个布拉维格子的基天选择有任意性，相应的倒格子基矢也有任意性，但倒格子却是由布拉维正格子所唯一确定的."
@@ -6888,7 +6888,7 @@
     "id": 2641,
     "image": "2641.jpg",
     "question": "非金属结晶固体的热传导需要一种使声子分布趋于热平衡的机制。描述建立热平衡过程的形式。<image>",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 2,
     "answer": "对于 $q_{1} + q_{2} = q_{3} + G$ 型三声子碰撞过程，由于 $G$ 的引入，将改变声子系统的总动量，并在经过一定的驰豫时间后，达到热平衡状态。正是这种过程，才能建立热阻。"
@@ -6897,7 +6897,7 @@
     "id": 2642,
     "image": "2642.jpg",
     "question": "考虑一本征半导体，其电子态密度函数 $N(E)$ 如图所示。相对于价带和导带，费米能级的位置在什么地方？",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 1,
     "answer": "对于本征半导体，费米能级的位置可以通过以下推导确定：\n $$ n = \\int_{E_{\\mathrm{C}}}^{\\infty} N(E)f(E)\\mathrm{d}E, \\qquad p = \\int_{-\\infty}^{E_{\\mathrm{V}}} N(E)(1-f(E))\\mathrm{d}E $$\n 其中，费米分布函数为\n $$ f(E) = \\frac{1}{\\mathrm{e}^{\\beta(E-E_{\\mathrm{F}})} + 1}, \\quad \\beta = \\frac{1}{k_{\\mathrm{B}}T}. $$\n 当 $E - E_{\\mathrm{F}} \\gg k_{\\mathrm{B}}T$ 时，近似有\n $$ f(E) \\approx \\mathrm{e}^{-\\beta(E-E_{\\mathrm{F}})}. $$\n 由此可得\n $$ n \\approx \\int_{E_{\\mathrm{C}}}^{\\infty} n_0 \\mathrm{e}^{-\\beta(E-E_{\\mathrm{F}})} \\mathrm{d}E = n_0 k_{\\mathrm{B}}T \\mathrm{e}^{-(E_{\\mathrm{C}}-E_{\\mathrm{F}})/k_{\\mathrm{B}}T}, $$\n $$ p \\approx n_0 k_{\\mathrm{B}}T \\mathrm{e}^{-(E_{\\mathrm{F}}-E_{\\mathrm{V}})/k_{\\mathrm{B}}T}. $$\n 由于 $n = p$ 对于本征半导体成立，解得费米能级位置为\n $$ E_{\\mathrm{F}} = \\frac{E_{\\mathrm{C}} + E_{\\mathrm{V}}}{2}. $$"
@@ -6906,7 +6906,7 @@
     "id": 2643,
     "image": "2643.jpg",
     "question": "考虑一本征半导体，其电子态密度函数 $N(E)$ 如图所示。假设 $N(E)$ 已经包括自旋简并度因子2，写出费米分布函数。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 1,
     "answer": "电子占据一个态的概率由费米分布函数给出，形式为\n $$ f(E) = \\frac{1}{\\mathrm{e}^{\\beta(E-E_{\\mathrm{F}})} + 1}, $$\n 其中 $\\beta = \\frac{1}{k_{\\mathrm{B}}T}$。"
@@ -6915,7 +6915,7 @@
     "id": 2644,
     "image": "2644.jpg",
     "question": "电子在周期势能中的势能函数为\n $$ V(x)=\\left\\{\\begin{array}{c c}{0,}&{x a<x\\leqslant(n+1)a-d}\\ {V_{0},}&{(n+1)a-d<x\\leqslant(n+1)a}\\end{array}\\right. $$\n 其中 $a=2d$。画出此势能曲线，并求其平均值。\n 图1.61<image>",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 1,
     "answer": "势能函数的周期为 $(n+1)a-n a=a,$ 取第一个周期，令 $\\scriptstyle{n=0,}$ 有\n $$ \\begin{array}{r}{V(x)=\\left\\{{\\begin{array}{l}{0,\\quad0\\leqslant x\\leqslant a-d=d}\\ {V_{0},\\quad\\quad d\\leqslant x\\leqslant2d}\\end{array}}\\right.}\\end{array} $$\n 画出第一个周期势能曲线为图 $1,61,$ 依照周期特性·在 $x$ 轴上平移第一个周期势能曲线，可得到 $x$ 轴上电子势能曲线。\n 由于势能函数的周期性，可在一个周期内求出其平均值：\n $$ V={\\frac{1}{a}}{\\int_{0}^{a}}V(x)\\mathrm{d}x={\\frac{1}{a}}{\\int_{0}^{2d}}V_{0}\\mathrm{d}x={\\frac{1}{a}}V_{0}{\\int_{0}^{2d}}x={\\frac{1}{a}}V_{0}\\bullet\\left(2d-d\\right)={\\frac{1}{2d}}V_{0}\\bullet d={\\frac{1}{2}}V_{0}. $$"
@@ -6924,7 +6924,7 @@
     "id": 2645,
     "image": "2645.jpg",
     "question": "光受透明固体的散射可以看成是光量子与声子相互作用过程的结果，试利用能量和动量守恒定律证明，由于散射而偏转了 $\\theta$ 角的光束必定包含这样的成分，其波长相对于入射光移动了\n $$\n \\Delta\\lambda = \\pm \\frac{2n v}{c} \\lambda \\sin\\frac{\\theta}{2}\n $$\n 式中 $,n$ 为物质的折射率 $,v$ 为固体中的声速 $,c$ 为真空中的光速。\n\n 图1.33<image>",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 1,
     "answer": "设入射光波矢为 $k_0,$ 经与波矢为 $q$ 的声子碰撞后，发生散射，散射光波矢为 $k,$ 根据动量守恒定律，得声子波矢\n $$\n \\frac{1}{\\lambda'} = |q| = 2|k_0|\\sin\\frac{\\theta}{2} = 2\\frac{1}{\\lambda_0}\\sin\\frac{\\theta}{2}\n $$\n 式中 $,\\lambda_0$ 是入射光波长 $,$ 相应声子角频率 $\\omega'$ 为\n $$\n \\omega' = 2\\pi f' = \\frac{2\\pi}{\\lambda'}v = 4\\pi v\\sin\\frac{\\theta}{2}\\frac{1}{\\lambda_0}.\n $$\n 同理，波矢为 $k_0$ 和 $k$ 的光子分别对应以下的角频率\n $$\n \\omega_0 = 2\\pi f_0 = \\frac{2\\pi}{\\lambda_0}\\frac{c}{n},\n $$\n $$\n \\omega = 2\\pi f = \\frac{2\\pi}{\\lambda}\\frac{c}{n}.\n $$\n 光子与声子相互作用遵循能量守恒定律\n $$\n \\hbar\\omega - \\hbar\\omega_0 = \\pm \\hbar\\omega'.\n $$\n 将（1）、（2）和（3）式代入上式\n $$\n h\\frac{2\\pi}{\\lambda}\\frac{c}{n} - h\\frac{2\\pi}{\\lambda_0}\\frac{c}{n} = \\pm h \\cdot 4\\pi v\\sin\\frac{\\theta}{2}\\frac{1}{\\lambda_0}.\n $$\n 化简得\n $$\n \\frac{1}{\\lambda} - \\frac{1}{\\lambda_0} = \\pm \\frac{2n v}{c}\\frac{1}{\\lambda_0}\\sin\\frac{\\theta}{2}.\n $$\n 进一步整理得出\n $$\n \\lambda - \\lambda_0 = \\pm \\frac{2n v}{c}\\lambda\\sin\\frac{\\theta}{2}.\n $$"
@@ -6933,7 +6933,7 @@
     "id": 2646,
     "image": "2646.jpg",
     "question": "如图所示，证明正负一价离子交错等距排列的一维晶格的马德隆（Madelung）常数 $ M = 2\\ln2 $。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 1,
     "answer": "设其最近邻离子间距为 $ x_0 $，则第 $ n $ 个离子坐标为 $ n x_0 $，参考离子与一维晶格所有离子的库仑吸引势为：\n$$\n\\Big(\\sum_{n=1}^{N}(-1)^{n}\\frac{e^{2}}{4\\pi\\varepsilon_{0}n x_{0}}\\Big)\\times2\n$$\n式中求和时对正离子取正号，对负离子取负号，并考虑到对一维离子晶体，参考离子两边的离子是正负对称分布的，因此乘2。离子总数为 $ 2N $，只取一次两离子相互作用势。一维离子晶体总的库仑吸引势为：\n$$\nU_{\\text{total}} = \\Big(\\sum_{n=1}^{N}(-1)^{n}\\frac{e^{2}}{4\\pi\\varepsilon_{0}n x_{0}}\\Big)\\times2\\times(2N)\\times\\frac{1}{2}\n$$\n化简得：\n$$\nU_{\\text{total}} = -N\\frac{e^{2}}{4\\pi\\varepsilon_{0}x_{0}}\\cdot\\Big(2\\cdot\\sum_{n=1}^{N}(-1)^{n+1}\\cdot\\frac{1}{n}\\Big)\n$$\n一维离子晶体马德隆常数定义为：\n$$\nM = 2\\cdot\\sum_{n=1}^{N}(-1)^{n+1}\\cdot\\frac{1}{n}\n$$\n当离子数目 $ N $ 很大时，有：\n$$\n\\sum_{n=1}^{N}(-1)^{n+1}\\cdot\\frac{1}{n} = \\sum_{n=1}^{\\infty}(-1)^{n+1}\\cdot\\frac{1}{n} = 1 - \\frac{1}{2} + \\frac{1}{3} - \\frac{1}{4} + \\cdots\n$$\n将上述级数与 $ \\ln(1+y) $ 的展开式比较：\n$$\n\\ln(1+y) = y - \\frac{y^2}{2} + \\frac{y^3}{3} - \\frac{y^4}{4} + \\cdots\n$$\n令 $ y = 1 $，则有：\n$$\n\\ln(1+1) = \\ln2 = 1 - \\frac{1}{2} + \\frac{1}{3} - \\frac{1}{4} + \\cdots\n$$\n因此：\n$$\n\\sum_{n=1}^{N}(-1)^{n+1}\\cdot\\frac{1}{n} = \\ln2\n$$\n代入马德隆常数公式得：\n$$\nM = 2\\cdot\\sum_{n=1}^{N}(-1)^{n+1}\\cdot\\frac{1}{n} = 2\\ln2\n$$\n总的库仑吸引势为：\n$$\nU_{\\text{total}} = -\\frac{N e^{2}\\cdot2\\ln2}{4\\pi\\varepsilon_{0}x_{0}} = -\\frac{N e^{2}\\ln2}{2\\pi\\varepsilon_{0}x_{0}}\n$$\n上述马德隆常数计算是埃瓦尔德（Ewald）提出的点阵累加的一般计算方法，应用到三维点阵时，收敛很慢，难于求出马德隆常数。"
@@ -6942,7 +6942,7 @@
     "id": 2647,
     "image": "2647.jpg",
     "question": "如图所示，考虑一个由 $N$ 个双原子分子组成的长度为 $L=N a$ 的一维固体。分子中的原子间距是 $b\\left(b<\\frac{a}{2}\\right)$，相邻分子的中心相距 $a$。我们把势能表达为中心在每个原子上的 $\\delta$ 函数之和：\n$$\nV=-A\\sum_{n=0}^{N-1}\\left[\\delta(x-n a+b/2)+\\delta(x-n a-b/2)\\right]\n$$\n其中 $A$ 是一个正的量。考虑固体中的自由电子和周期边界条件，推导出电子波矢的允许值和归一化的波函数。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 2,
     "answer": "当 $V=0, H=-\\frac{\\hbar^{2}}{2m}\\nabla^{2}$，由 $H\\Psi=E\\Psi$ 得\n$$\n\\Psi=c e^{i k x}=\\frac{1}{\\sqrt{L}} e^{i k x}\n$$\n周期性边界条件要求 $\\Psi(0)=\\Psi(L)$，故\n$$\ne^{i k L}=1 \\implies k=\\frac{2 n \\pi}{L}, \\quad n=0, 1, 2, \\cdots\n$$"
@@ -6951,7 +6951,7 @@
     "id": 2648,
     "image": "2648.jpg",
     "question": "如图所示，考虑一个由 $N$ 个双原子分子组成的长度为 $L=N a$ 的一维固体。分子中的原子间距是 $b\\left(b<\\frac{a}{2}\\right)$，相邻分子的中心相距 $a$。我们把势能表达为中心在每个原子上的 $\\delta$ 函数之和：\n$$\nV=-A\\sum_{n=0}^{N-1}\\left[\\delta(x-n a+b/2)+\\delta(x-n a-b/2)\\right]\n$$\n其中 $A$ 是一个正的量。把势能表示为一个傅里叶级数\n$$\nU=\\sum_{q} V_{q} e^{i q x}\n$$\n求出 $q$ 的允许值和系数 $V_{q}$。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 5,
     "answer": "根据数学上的定理，当 $V(x)$ 的周期为 $a$ 时，$V(x)$ 可以表示为\n$$\nV(x)=\\sum_{q} V_{q} e^{i q x}\n$$\n其中 $q=n \\frac{2\\pi}{a}, n=0, \\pm 1, \\pm 2, \\cdots$，且\n$$\nV_{q}=\\frac{1}{a} \\int_{0}^{a} V(x) e^{-i q x} dx\n$$\n所以，$V_{0}=-\\frac{2A}{a}$；$V_{n}=-\\frac{2A}{a} \\cos n \\frac{\\pi b}{a}, n \\neq 0$。"
@@ -6960,7 +6960,7 @@
     "id": 2649,
     "image": "2649.jpg",
     "question": "如图所示，考虑一个由 $N$ 个双原子分子组成的长度为 $L=N a$ 的一维固体。分子中的原子间距是 $b\\left(b<\\frac{a}{2}\\right)$，相邻分子的中心相距 $a$。我们把势能表达为中心在每个原子上的 $\\delta$ 函数之和：\n$$\nV=-A\\sum_{n=0}^{N-1}\\left[\\delta(x-n a+b/2)+\\delta(x-n a-b/2)\\right]\n$$\n其中 $A$ 是一个正的量。假定 $A$ 很小，证明对 $k$ 的一些值存在能隙，导出能隙的一般公式并证明第一布里渊区顶部的能隙正比于 $\\cos(\\cdot)$。",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 3,
     "answer": "通过薛定谔方程的微扰分析，得到能隙公式为\n$$\nE_{g}=2|V_{K_{n}}|\n$$\n因此，当 $k=\\frac{K_{n}}{2}$ 时出现能隙。对于第一布里渊区的边缘 $k=\\frac{K_{1}}{2}=\\frac{\\pi}{a}$，有\n$$\n|V_{K_{1}}|=\\frac{2A}{a} \\cos \\frac{\\pi b}{a}\n$$\n即\n$$\nE_{g}(K_{1}) \\propto \\cos \\frac{\\pi b}{a}\n$$"
@@ -6969,7 +6969,7 @@
     "id": 2650,
     "image": "2650.jpg",
     "question": "如图所示，考虑一个由 $N$ 个双原子分子组成的长度为 $L=N a$ 的一维固体。分子中的原子间距是 $b\\left(b<\\frac{a}{2}\\right)$，相邻分子的中心相距 $a$。我们把势能表达为中心在每个原子上的 $\\delta$ 函数之和：\n$$\nV=-A\\sum_{n=0}^{N-1}\\left[\\delta(x-n a+b/2)+\\delta(x-n a-b/2)\\right]\n$$\n其中 $A$ 是一个正的量。导出第一布里渊区中的状态数的表达式，如果每个原子有一个电子，这种物质是导体还是绝缘体？",
-    "subtopic": "Solid physics and measurement of physical quantities",
+    "subtopic": "Solid state physics and measurement of physical quantities",
     "language": "chinese",
     "difficulty": 2,
     "answer": "第一布里渊区的状态数为 $N$ 个 $k$ 值，考虑自旋后共有 $2N$ 个状态。由于有 $N$ 个分子，每个分子有两个原子，每个原子有两个电子，因此共有 $2N$ 个电子。这 $2N$ 个电子正好填满第一布里渊区，因此这种材料是绝缘体。"
